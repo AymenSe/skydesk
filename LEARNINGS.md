@@ -24,3 +24,12 @@ The docker image for nvidia cuda is working and can connect with my local gpu.
 |=========================================================================================|
 |    0   N/A  N/A              48      G   /Xwayland                             N/A      |
 +-----------------------------------------------------------------------------------------+
+
+
+
+
+Why 202 and not 201? 201 means the thing was created and is complete. 202 means the request was accepted but the work (the draft) isn't finished yet.
+
+Which requirement forced a queue? NFR5: the API must keep working while the GPU is busy. NFR1 (under 300 ms) supports it, since a 4 s draft can't fit in the request.
+
+If traffic grows 10×, what breaks first? The single GPU worker. Scale by running more worker containers on the same queue, or by switching to a smaller model, all without Kubernetes.
