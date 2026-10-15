@@ -33,3 +33,15 @@ Why 202 and not 201? 201 means the thing was created and is complete. 202 means 
 Which requirement forced a queue? NFR5: the API must keep working while the GPU is busy. NFR1 (under 300 ms) supports it, since a 4 s draft can't fit in the request.
 
 If traffic grows 10×, what breaks first? The single GPU worker. Scale by running more worker containers on the same queue, or by switching to a smaller model, all without Kubernetes.
+
+
+## Lab 2: Reflect
+
+**Why environment variables instead of a config file baked into the image?**
+The same image runs everywhere (laptop, CI, production) and only the environment changes, so I build once and configure per environment. Secrets also stay out of the image, so anyone who pulls it can't read them.
+
+**What does @lru_cache on get_settings buy, and what does it make harder in tests?**
+Settings are built once and the same object is reused on every call, which is fast and consistent. But a test that changes an environment variable won't see the change, because the cached object is still used. Fix: call get_settings.cache_clear() or override the dependency in the test.
+
+**Why validate with Pydantic at the edge instead of deeper in the code?**
+Bad input is rejected in one place, at the door, with a clear 422 that tells the client exactly which field is wrong. Everything behind it can trust its inputs, so the inner code doesn't need its own checks.
