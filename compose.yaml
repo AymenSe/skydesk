@@ -1,0 +1,21 @@
+name: skydesk
+
+services:
+  api:
+    build:
+      context: .
+      target: api              # TODO(Lab 2): the Dockerfile stage to build
+    image: skydesk-api:dev
+    ports:
+      - "8000:8000"
+
+  tests:
+    build:
+      context: .
+      target: test
+    image: skydesk-tests:dev
+    profiles: ["test"]         # a plain `docker compose up` never starts it
+    volumes:                   # your live code, so edits need no rebuild
+      - ./skydesk:/app/skydesk
+      - ./tests:/app/tests
+      - ./pyproject.toml:/app/pyproject.toml
