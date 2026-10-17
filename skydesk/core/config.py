@@ -16,6 +16,10 @@ class Settings(BaseSettings):
     db_name: str = "skydesk"
     db_password_file: Path | None = None
 
+    # Classifier (Lab 4)
+    artifacts_dir: Path = Path("artifacts")
+    intent_threshold: float = 0.45
+
     @property
     def sqlalchemy_url(self) -> str:
         if self.database_url:
