@@ -45,3 +45,15 @@ Settings are built once and the same object is reused on every call, which is fa
 
 **Why validate with Pydantic at the edge instead of deeper in the code?**
 Bad input is rejected in one place, at the door, with a clear 422 that tells the client exactly which field is wrong. Everything behind it can trust its inputs, so the inner code doesn't need its own checks.
+
+
+## Lab 3: Reflect
+
+**Something that passes in tests (SQLite) but fails in production (Postgres)?**
+Tests build their tables from the SQLAlchemy models, not from `001_schema.sql`, so SQLite has no `CHECK` on `status`. Saving a ticket with an invalid status like `"done"` passes the tests but is rejected by Postgres. SQLite is also looser about types and time zones, so the same code can behave differently.
+
+**"My bag was delayed and I want a refund": what goes wrong, and why can't more keywords fix it?**
+It returns `baggage` only, because the first matching intent wins, even though the message also mentions a delay and a refund. More keywords can't fix it: keywords don't understand meaning, negation ("I don't want a refund") or which topic matters most. That needs a model that scores every intent, which comes in Lab 4.
+
+**How to change the schema of a live database without losing data?**
+Use migrations, for example Alembic, as ADR-0003 planned. Each change is a small versioned script (`ALTER TABLE tickets ADD COLUMN ...`) applied in order, and the database records which ones have already run. Existing rows stay, and wiping the volume (`down -v`) is never needed.
