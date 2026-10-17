@@ -57,3 +57,21 @@ It returns `baggage` only, because the first matching intent wins, even though t
 
 **How to change the schema of a live database without losing data?**
 Use migrations, for example Alembic, as ADR-0003 planned. Each change is a small versioned script (`ALTER TABLE tickets ADD COLUMN ...`) applied in order, and the database records which ones have already run. Existing rows stay, and wiping the volume (`down -v`) is never needed.
+
+
+
+## Lab 4: Reflect
+
+**Training inside the build guarantees the image matches the data. What's the cost as the dataset grows?**
+Every change to the data re-embeds and retrains everything during the build, so builds get slower and CI waits longer. The build also needs internet access to download MiniLM. Past a certain size, training should move to its own pipeline that produces versioned artifacts (a model registry), and the image build would just fetch a chosen version.
+
+**What did CPU-only torch save, and why doesn't the API need CUDA?**
+The default torch pulls several GB of CUDA libraries; the CPU build is a few hundred MB. That means faster builds, pulls and deploys. The API embeds one short message per request with a small 22M-parameter model, which takes milliseconds on a CPU. The 4 GB GPU stays free for the LLM worker in a later lab.
+
+**What failure does HF_HUB_OFFLINE=1 prevent in production?**
+Startup depending on Hugging Face. Without it, a Hub outage, a rate limit, a server with no internet access, or a silently updated model could make the API fail to start or behave differently. Everything it needs is baked into the image.
+
+**What happens to agents' workload if the threshold is too high? Too low?**
+Too high: many clear messages are escalated as "other", so agents handle work the model could have routed, and the classifier adds little. Too low: wrong guesses are routed with confidence, so tickets reach the wrong team and get the wrong draft. A threshold only catches uncertain predictions, not confident mistakes: "My flight was delayed 4 hours and my suitcase is broken" got baggage at 0.963 despite being mixed.
+
+**Lesson from a bug:** tests passed but the API crashed at startup. The model files were readable only by root, the tests ran as root, and the API runs as `appuser`. Fixed with `chmod -R a+rX artifacts` in the trainer stage. Running tests as the same user as production would have caught it.

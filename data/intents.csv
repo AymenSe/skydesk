@@ -1,0 +1,1066 @@
+text,intent
+My suitcase never arrived at the carousel,baggage
+The airline lost my luggage on the way to Rome,baggage
+My bag came out damaged with a broken handle,baggage
+How much does an extra checked bag cost,baggage
+I left my backpack on the plane,baggage
+Where can I report a missing bag,baggage
+I want my money back for the cancelled trip,refund
+How long does a refund take to reach my card,refund
+Can I get a refund for my non refundable ticket,refund
+I was charged twice please reimburse me,refund
+Please refund the seat upgrade I did not get,refund
+Do I get the airport taxes back if I do not fly,refund
+I need to move my flight to next Friday,booking_change
+Can I change the name on my ticket,booking_change
+How much does it cost to rebook to an earlier flight,booking_change
+I want to add a return flight to my booking,booking_change
+Please switch my seat to an aisle seat,booking_change
+Can I change my destination from Paris to Madrid,booking_change
+Is flight NA102 on time today,flight_status
+Why is my flight delayed,flight_status
+Has the 6pm flight to Berlin been cancelled,flight_status
+What gate does my flight leave from,flight_status
+When will my delayed flight depart,flight_status
+Is there any update on the flight from Oslo,flight_status
+The crew was extremely rude to my family,complaint
+This is the worst service I have ever received,complaint
+I waited on hold for two hours and nobody helped,complaint
+Your staff ignored my wheelchair request,complaint
+I am very unhappy with how my case was handled,complaint
+I want to file a formal complaint,complaint
+Do you have vegetarian meals on board,other
+Can I bring my dog on the plane,other
+How do I join your loyalty program,other
+Is there wifi on long flights,other
+Do you sell gift cards,other
+"The ""warm welcome"" never happened.",complaint
+I know the flight was six hours late and compensation is a separate matter. What I need now is a report confirming that my golf clubs never arrived. My insurer is asking for it.,baggage
+Nimbus cancelled NA650 and I'd like the full ticket price returned to my card.,refund
+Does the aircraft have power sockets?,other
+Gate B4 or B14 for NA901?,flight_status
+This case was handled terribly.,complaint
+I want the exit-row seat transferred to a regular aisle further back.,booking_change
+We were affected by the cancelled service from Nimes. This message isn't requesting another flight or money. I am expressing disappointment at how the desk staff spoke to stranded travellers.,complaint
+I submitted all requested documents for RF83061 in July. Every reply says to wait another ten days. Please confirm when the money will actually be sent.,refund
+Still waiting for EUR 184.,refund
+Depart after lunch instead please.,booking_change
+Nobody should have to argue for basic politeness at a customer-service desk.,complaint
+Is the advertised 00:15 departure tonight's rescheduled service or tomorrow's separate flight?,flight_status
+Can points expire while I'm inactive?,other
+supervisor was proper rude to us,complaint
+Has the overnight flight to Amman landed or been diverted somewhere else?,flight_status
+There should be EUR 55 coming back for the cancelled excursion add-on sold with my ticket.,refund
+The app recognises my booking but won't complete online check-in. It says a document check is needed without explaining where to go. Should I visit a staffed counter?,other
+The airport desk found my suitcase but says it cannot leave the store without Nimbus approval. I am already back in Nantes. Could you authorise delivery to me?,baggage
+I wasn't upset about the seat move until the agent mocked me for asking why.,complaint
+I'd like the actual operating times for NA802 on 15 April to support a delay claim.,flight_status
+"The agent's manner was frustrating, but I still want to sort out the itinerary. Could my return from Luxembourg move to Saturday evening? Friday is no longer possible.",booking_change
+I want to return from Bologna.,booking_change
+"Being told ""that's your problem"" in front of other passengers was deeply embarrassing.",complaint
+The agent repeatedly addressed me as though I couldn't understand basic instructions. I had simply asked them to speak a little more slowly. That patronising manner was deeply disappointing.,complaint
+"I have a message saying ""operational disruption"" without any revised departure time.",flight_status
+My refunded fare hasn't appeared yet.,refund
+My child will travel alone to visit family in Toulouse. They will be 13 on the departure date. Could you explain the supervised travel service and required paperwork?,other
+Please tell me which receipt format you accept for essentials purchased during a baggage delay.,baggage
+"We decided to visit Tallinn before Helsinki, so can you reverse the order of our booked stops?",booking_change
+I am disappointed beyond words.,complaint
+"I realise the earlier delay wasn't the agent's fault. However, I need to reach Wroclaw before tomorrow afternoon. Could you move me to the first available morning service?",booking_change
+Please repay my cancelled reservation.,refund
+The bag allowance question can wait; please transfer my ticket to the later departure.,booking_change
+been on this plane an hour already when are we actually gonna leave,flight_status
+What's a good pancake recipe?,other
+"After you moved me out of 2F, the EUR 76 advance seat payment should have come back.",refund
+What documents do you require for a small dog travelling in the cabin to Milan?,other
+My destination was selected as Granada but I meant to fly to Girona.,booking_change
+"Our boarding passes were scanned successfully after a small technical problem. Even so, the employee kept making comments about us holding everyone up. We felt unfairly blamed and embarrassed.",complaint
+You've refunded the base fare but retained a separately charged EUR 17 booking service that never completed.,refund
+One more traveller for D9J6QT.,booking_change
+Our inbound aircraft was diverted earlier in the day. The departure is still marked on time online. Is that estimate realistic for NA704 to Olbia?,flight_status
+May I use points for purchases?,other
+Will we depart before the curfew?,flight_status
+Would an empty foldable shopping bag count toward the personal-item limit if carried separately?,baggage
+my luggage lock is completly busted,baggage
+"The assistant was rude about the delay, but right now I just need my missing rucksack found.",baggage
+I'm flying through Istanbul and want to know which travel documents Nimbus checks in transit.,other
+The employee loudly criticised my pronunciation of the destination instead of answering normally.,complaint
+Can I check in without printing?,other
+There is an approved refund for both passengers on our reservation. Only one person's fare has been paid back. Can you arrange the outstanding amount for the second traveller?,refund
+After two transfers my trekking poles are nowhere to be seen at the oversized collection point.,baggage
+My bag is in storage at the airport and the relevant team has the details. I need to know whether today's service to Pula is still leaving. It vanished from the timetable ten minutes ago.,flight_status
+When are we actually taking off?,flight_status
+May I get the fare paid back to the original card rather than into my Nimbus wallet?,refund
+Can I choose a bank transfer for my approved fare refund if the original card account is closed?,refund
+I have flown with Nimbus several times and usually felt welcome. On the Nantes service the crew seemed annoyed by every interaction. The atmosphere was noticeably cold.,complaint
+Can I earn points retrospectively for a trip taken before joining the programme?,other
+I booked an upgrade with a meal included. The upgrade was never supplied because the aircraft had only one cabin. Please return the amount charged for that package.,refund
+The ground team's attitude was appalling.,complaint
+Five agents and zero ownership.,complaint
+My partner's seat is 19A and mine is 31E. We would like to sit together even if we need to move further back. Can you arrange that?,booking_change
+Our school holiday dates were amended and the whole family's journey needs shifting by two days.,booking_change
+How late will we reach Vienna?,flight_status
+Can I enter the lounge early?,other
+Boarding was due twenty minutes ago and the gate staff have not appeared.,flight_status
+Does the four-hour late arrival on NA1186 qualify for a compensation review?,flight_status
+The lounge in Tallinn had overflowing bins and unclean tables. Staff continued chatting behind the desk while people searched for somewhere clean to sit. I left with a poor impression.,complaint
+Could you refund the extra-legroom fee since I was placed in a standard row?,refund
+I chose the wrong destination from the dropdown. I need to travel to Salzburg rather than Strasbourg. Could you correct the itinerary and tell me the fare difference?,booking_change
+How do I merge two Nimbus loyalty accounts that belong to me?,other
+call cut off before agent finish sending EUR 67 back can u complete it,refund
+I left my child's soft toy between seats 7A and 7B on NA583. It is a purple rabbit with a yellow scarf. Has anyone found it?,baggage
+I'd prefer the new direct flight to Chania over my current connection through Athens.,booking_change
+Could you tell me how to apply for the unaccompanied-minor service?,other
+"Our wheelchair request is already confirmed, but the travel date now needs moving forward.",booking_change
+Nobody bothered explaining what was happening.,complaint
+I'd like to pay the difference to sit in business on NA4471.,booking_change
+oops picked midnight when i meant midday can someone fix the flight,booking_change
+Can you convert the booked round trip into an open-jaw journey returning from Zagreb?,booking_change
+why u removed the delivery estimate for BER4578 i still got no stuff,baggage
+I need to verify the actual arrival delay before submitting my compensation form.,flight_status
+The cabin crew spent much of the journey complaining about their work within earshot. Several comments were directed at passengers. It created a very uncomfortable atmosphere.,complaint
+Our plane is coming from where?,flight_status
+Please repay the duplicate extra-bag purchase rather than adding a second bag to my booking.,refund
+Nobody took my concerns seriously.,complaint
+ur agent just closed chat while i was typing thats really disrespectful,complaint
+"The booking is for the correct person, but one vowel in the surname is wrong. It should match the passport exactly. How can I have that corrected before check-in?",booking_change
+Can my booking become a return?,booking_change
+Do you transport bicycles in soft cases or must mine be in a rigid box?,baggage
+Could we fly into Verona and keep the existing departure home from Venice?,booking_change
+We have received the refund for the cancelled meal. This time I'm asking to move our next trip from September to October. We can travel any Friday in the first half of the month.,booking_change
+What happens to a forgotten item if the aircraft has already continued to another city?,baggage
+I want to claim the fixed compensation associated with our seven-hour arrival delay.,flight_status
+Do children need separate passports?,other
+missed connection cos u were late pls get me on first vilnius flight tmrw,booking_change
+Where are you delivering my suitcase?,baggage
+No one has explained why my unused ticket became a voucher without my agreement.,refund
+"My booking dates are now correct, so there is no further ticket request. I am unhappy about the aggressive tone used by the adviser. A simple correction should not have become an argument.",complaint
+Nobody has collected the receipts I supplied for replacing essentials after my bag failed to arrive.,baggage
+I bought a Nimbus gift card for EUR 150. The recipient sees a zero balance when entering the code. Could you help us activate it?,other
+I am willing to pay more to leave after 20:00 rather than at dawn.,booking_change
+Return the priority boarding charge please.,refund
+"The staff were dismissive about my dietary request, but I'm asking for the prepaid meal charge back.",refund
+My basic fare includes something called an underseat item. The backpack I want to bring is 42 by 28 by 18 cm. Is that within your permitted size?,baggage
+Our upgraded cabin felt poorly maintained and the crew's manner did nothing to improve it.,complaint
+"The confirmation for X4N8LP shows ""one item included"". I'm travelling with a shoulder bag and a small roller. Does that phrase cover both in the cabin?",baggage
+Reverse the extra EUR 27 please.,refund
+The moon looks like a biscuit tonight and I feel someone should know.,other
+Our bag allowance is confirmed and our seats are together. The remaining question is about check-in for an infant without a mobile device. Can their boarding pass be stored on my phone?,other
+we got offered a different route after the storm. before saying yes i need to know if our checked skis come with us?? original route was thru helsinki.,baggage
+May I reclaim the reservation fee for a booking Nimbus voided before issuing a ticket?,refund
+person at ljubljana desk kept sighing at me for asking normal questions so rude,complaint
+"Reception signed for a suitcase that has somebody else's clothes inside. The outer tag shows my reference, which is worrying. Can you collect it and find the one I actually checked?",baggage
+I booked twice after the first checkout page froze. Both confirmations arrived ten minutes later. Can you void one reservation and return its charge?,refund
+I need a missing baggage report.,baggage
+"The meal was disappointing, but the attitude when I mentioned it was worse. The attendant said I should be grateful to receive anything. I expect more respectful service than that.",complaint
+We were travelling with a tired child and trying to follow the instructions. One employee told us to stand aside and another scolded us for standing there. The whole interaction felt hostile.,complaint
+can u put me up front instead of beside my partner pls,booking_change
+Please explain which deductions would apply if I cancel my fully paid Thessaloniki itinerary today.,refund
+My belongings arrived soaking wet.,baggage
+"My holiday was awful after the cancellation, but my immediate question is where you sent my suitcase.",baggage
+Our refund request is a different case. We are asking for an update on the delay compensation application filed six weeks ago. Its reference is DC63827.,flight_status
+"I booked NA412 to Gdansk for 17 May. Nimbus then cancelled it and offered a flight the next day. That no longer works for me, so please return the ticket payment.",refund
+The protective cover is intact but the hard shell underneath has a large dent.,baggage
+Have we been pushed past midnight?,flight_status
+That seat fee needs returning.,refund
+We're four on one reservation; can one case weigh 25 kg if another weighs only 15?,baggage
+Cracked shell after the Naples flight.,baggage
+The staff told me to stop asking about the missing vegetarian meal. I don't want to discuss their attitude right now. I want the EUR 16 I paid for that meal back.,refund
+Can the return be moved to 3 December without touching the outbound leg?,booking_change
+Your courier says delivery completed but reception has received nothing for room 216.,baggage
+Please resend the purchase receipt.,other
+Your final reply was another copy of the same apology. It didn't mention any of the behaviour I described. I don't feel that my concerns have been taken seriously.,complaint
+got lounge pass sorted but how long till they actually start boarding us,flight_status
+Twenty kilos or twenty three allowed?,baggage
+Please verify whether the 11:20 flight to Brest left today or was cancelled.,flight_status
+Please explain why my essentials claim was reduced from EUR 72 to EUR 19.,baggage
+"The gate is confirmed, but where can I request help walking there from security?",other
+Could you provide a link to your policy on travelling with an emotional-support animal?,other
+I would like information about Nimbus sponsorship of local youth sports clubs.,other
+Our route was cancelled permanently and I'm seeking repayment for the remaining four flights.,refund
+I am organising travel for a student music group. We would like information about group fares and how quotations work. We haven't selected flights or made a booking yet.,other
+Could someone check the cleaning team's collection from NA890 for a yellow scarf?,baggage
+Please reroute the outward leg.,booking_change
+Seat 8C instead of 8B please.,booking_change
+I need an itemised invoice showing the fare and taxes for my university.,other
+The app still promises 07:30 even though that time passed forty minutes ago.,flight_status
+My suitcase issue is being handled already; can you return the charge for the seat I couldn't use?,refund
+Your supervisor implied I was lying before even checking the documents I had supplied.,complaint
+My ticket allows 20 kg in the hold. I have two small cases with a combined weight of 18 kg. Will I have to pay for the second piece?,baggage
+Could you add one adult travelling companion without creating a separate booking reference?,booking_change
+We bought nappies and one set of baby clothes after our case was misrouted to Zagreb. The total was EUR 37 and we kept the receipts. Please add this to our delayed-luggage claim.,baggage
+every reply sounds like nobody even read what i wrote in first place,complaint
+I want to skip the stop in Vienna and take the available nonstop to Tirana.,booking_change
+runway closed earlier so is the nottingham bergerac one still going this afternoon,flight_status
+May I pay to move both travellers into the cabin with extra space?,booking_change
+The tracker hasn't moved since Monday.,baggage
+Has our service been reinstated?,flight_status
+last two flights to memmingen got cancelled. im on the evening one and nobody says if thats going either. can u check pls?,flight_status
+Please check if the Gate 26 shown in the app is still assigned to the Tallinn departure.,flight_status
+An apology without listening means little.,complaint
+Would a handbag and a laptop sleeve count as two cabin items under Basic?,baggage
+Could you add a return from Ibiza on 28 June to my existing one-way ticket?,booking_change
+Someone delivered only one of two.,baggage
+"Please move us to a row where the armrests lift, if the seat map permits it.",booking_change
+Will the evening departure to Almeria run after today's earlier services were cancelled?,flight_status
+"I have a complaint about the lounge but will send that separately. For now I need to know how late our flight to Tours is running. The display only says ""wait"".",flight_status
+What sort of certificate does Nimbus require for travel late in pregnancy?,other
+Can an unused gift voucher be passed to another family member without registering it first?,other
+pescara staff barking orders at everyone was horrible thats no way to speak to ppl,complaint
+anything vegan for brekkie on board,other
+has the plane taken off yet,flight_status
+Still waiting beside an empty carousel.,baggage
+Can I register a damaged pushchair without a boarding pass if I still have the booking reference?,baggage
+My booking uses an old surname and I need it updated to match my new travel document.,booking_change
+Our event starts a day earlier now and we need to reach Ljubljana by Friday.,booking_change
+Can you confirm we landed late?,flight_status
+My compensation claim asks for the arrival delay in minutes. We touched down well before the doors opened because no stand was available. Which recorded time should I use?,flight_status
+What is the earliest time a lounge day pass can be used before departure?,other
+My bagage didnt arrive pls help,baggage
+My passport and ticket spellings differ.,booking_change
+I have been rotating the same two shirts since Sunday. Your team says my things will take another three days to reach Kos. Will you cover a small purchase of clean clothes?,baggage
+The response to my feedback seemed designed to end the conversation rather than understand it.,complaint
+The airport assistance team spoke to my companion instead of addressing me directly.,complaint
+Please tell me whether NA904 has onboard wifi suitable for basic messaging.,other
+Can I bring my own food if your menu has nothing suitable for my allergy restrictions?,other
+How do I reclaim the airport taxes on an outward segment I never used?,refund
+Nobody showed any empathy at all.,complaint
+Has NA972 been moved from the main terminal gates to the satellite boarding area?,flight_status
+"The airline moved my seat already, so please just send the newest arrival estimate.",flight_status
+Will your entertainment screens offer subtitles on films shown on NA157?,other
+Seat 11D is beside a partition and I'd like 16D if that row is available.,booking_change
+My ticket displays the family name before the given name in fields that seem reversed.,booking_change
+I want back what I paid.,refund
+I'd like to purchase a EUR 75 Nimbus gift card for a friend.,other
+How long for a card reversal?,refund
+The bus transfer leaves the airport at 23:00 and I need our current expected landing time.,flight_status
+I am collecting an elderly relative in Santiago de Compostela. Their phone is off and the arrival display hasn't refreshed. Has the flight from Bordeaux arrived?,flight_status
+My employer has cancelled the trip to Hamburg. Please cancel my reservation and return any refundable amount. I understand there may be a fee.,refund
+yday delivery had my partners things only where is mine then??,baggage
+Your team treated my dietary question as a joke and that really upset me.,complaint
+"says ""final call"" but F6 is shut are we boarding somewhere else??",flight_status
+I am writing to express how disappointed I was by the dirty seats on NA347.,complaint
+I have the replacement itinerary already and don't need another booking. Please confirm whether the replacement flight is also delayed. It is NA1290 at 17:15.,flight_status
+I'm disgusted by that agent's behaviour.,complaint
+I already know my suitcase allowance; are spare camera batteries permitted in the cabin?,other
+Our ticket payment has been returned and we consider that part finished. I remain unhappy about the way our circumstances were discussed in front of other customers. We deserved more discretion and respect.,complaint
+I accepted the cancellation online and need to know how long Nimbus takes to send the credit.,refund
+Return the unused lounge pass cost.,refund
+Please seat my six-year-old next to me on NA526 rather than three rows away.,booking_change
+The gate announcement was too quiet to hear. Several passengers are walking toward the shuttle train while others remain here. Has boarding moved to the satellite building?,flight_status
+Please remove my booking for 21 September and repay the amount allowed under its cancellation terms.,refund
+My passport includes a second surname that doesn't appear on the booking.,booking_change
+One wheel came back snapped.,baggage
+"I'm disappointed that feedback about the broken seat was dismissed as ""just cosmetic"".",complaint
+The attendant announced my personal concern across several rows. I had deliberately spoken quietly because it was private. I found that lack of discretion upsetting.,complaint
+The repayment went to a closed account.,refund
+The departure boards show a gate but the boarding pass shows another terminal. I'm travelling on NA932 to Nuremberg. Which boarding location is correct?,flight_status
+"I bought onboard internet but it never connected, so I'd like the EUR 11 payment reversed.",refund
+Need an earlier return from Lisbon.,booking_change
+Please remove me from marketing messages while keeping essential travel notifications enabled.,other
+"I accept that the agent cannot control the weather. Still, nobody has told us whether the flight is cancelled or just waiting. Can you confirm its current status?",flight_status
+"Nobody told me whether the ""personal item"" must fit underneath the seat in front.",baggage
+We checked in early and followed the gate number printed on the pass. The screen there now lists a different airline. Could you find the current gate for NA658?,flight_status
+The toilet on NA109 was visibly dirty before takeoff and nobody seemed concerned.,complaint
+After checking in at Nice I never saw my tennis racket case again.,baggage
+Our suitcase was late and that team already has the report. I am contacting you about the loyalty points for the journey. They haven't appeared in my account.,other
+Can I take a wedding dress in a garment carrier without buying an additional cabin allowance?,baggage
+My flight is cancelled and I already accepted the replacement. The new route passes through a different country. Can you explain what transit documents your check-in staff will ask to see?,other
+Please quote the additional amount to upgrade only the longer segment to business.,booking_change
+The first agent discussed a refund and the second discussed vouchers. Neither is what I need right now. Please put me on the later departure to Nantes.,booking_change
+"I'm furious about the staff's attitude, but can you give me a reliable takeoff estimate?",flight_status
+Nothing credited after six weeks.,refund
+Please stop sending promotional emails.,other
+My missing case is a separate matter; when did NA522 actually reach Dublin?,flight_status
+My suitcase finally came this afternoon. A wheel is missing and the frame no longer closes properly. How do I submit a damage claim?,baggage
+boarding time already pass nobody say anything when will we leave please,flight_status
+My stroller never reached Porto.,baggage
+We were six hours behind schedule into Trieste and I need the correct compensation application.,flight_status
+That phone call left me shaking.,complaint
+The staff mocked my English.,complaint
+Please advise whether the tear I photographed at the carousel qualifies for a damage claim.,baggage
+refund mail says EUR 120 but i pay EUR 163 where the rest,refund
+I am disappointed that a polite suggestion about boarding organisation was met with open hostility.,complaint
+We need to leave from Marseille.,booking_change
+Is a guitar counted separately?,baggage
+I felt ignored throughout the journey.,complaint
+My surname has one letter wrong.,booking_change
+I want the delivery company to ring the doorbell because the suitcase contains fragile equipment.,baggage
+Can an existing gift card balance be combined with a credit-card payment?,other
+I need the check-in rules for a group travelling together on separate reservations.,other
+Our meeting moved online and I'd like to cancel both legs for whatever amount is refundable.,refund
+The family booking was made before our baby was born. We now have the travel document ready. Please add the infant to reservation V9K3AL.,booking_change
+Is a family allowed to share one onboard wifi subscription across multiple devices?,other
+The courier wants me to collect from a depot 70 km away; can my recovered case come to my door?,baggage
+There is a brown notebook in the pocket at 15E on yesterday's NA940. It contains my course notes and has no name inside. Can your cleaning team look for it?,baggage
+We want an overnight stopover added.,booking_change
+On NA349 I was reassigned to 22A and left a camera beneath my original seat.,baggage
+Is the inbound aircraft here already?,flight_status
+My invitation was extended and I'd like another week before flying back from Malta.,booking_change
+The repayment is settled; my dissatisfaction is with the hostile language used during the calls.,complaint
+Could I fly on Tuesday instead?,booking_change
+"Despite the poor meal last time, I'd still like to move this flight to next Friday.",booking_change
+My pickup needs a landing time.,flight_status
+"The gate agent mentioned a cancellation but the app continues to say ""boarding"".",flight_status
+Can I turn my Turin ticket into a multi-city trip ending in Venice?,booking_change
+Your agent kept interrupting my description of the bag issue instead of listening.,complaint
+Are vegetarian meals automatically dairy free?,other
+Would you let me replace the morning feeder flight with the previous evening's one?,booking_change
+Our itinerary changed by a full day and the notice offered a cash option. We chose that option immediately. Can you confirm that the repayment is underway?,refund
+My parents are collecting me in Genoa and need to know when the aircraft is expected.,flight_status
+We would like to spend two nights in our connection city. At present the ticket only allows three hours between flights. Can you insert the stopover in Warsaw?,booking_change
+Paid meal unavailable; please reimburse me.,refund
+"My delayed-flight compensation case is complete. During the process, however, an adviser repeatedly blamed me for asking follow-up questions. I am writing about that behaviour.",complaint
+The online form refuses my reference B9M2FX when I try to request a refund.,refund
+Our event was cancelled and I don't want to abandon the entire holiday. Could we travel to Valencia instead of Madrid on the same dates? I understand this may need a new fare calculation.,booking_change
+still waiting on that EUR 212,refund
+I need to travel to Rotterdam instead of Amsterdam on the outward half of this booking.,booking_change
+Please remove the accidental space inside the surname on my ticket.,booking_change
+Please switch us into premium economy.,booking_change
+Do you provide sunflower lanyards?,other
+The points from my June trip to Zagreb never appeared. I still have the ticket and boarding pass. How can I request the missing credit?,other
+my points total looks wrong tho,other
+omg i booked jan 2027 meant jan 2028 can you fix the year,booking_change
+Repayment marked complete but nothing arrived.,refund
+Are there separate rules for a 15-year-old travelling alone between Paris and Oslo?,other
+Has the boarding location moved?,flight_status
+paid for proper dinner got tiny snack instead pls give the extra money back,refund
+"We have already moved to adjacent seats, so now I want to arrange airport assistance.",other
+Can I recover unused airport taxes?,refund
+"The bag finally came yesterday, so that part is resolved. I still have two charges for the ticket itself. Could someone reverse the duplicate?",refund
+The crew said a fresh update was due at noon and we still have no estimated departure.,flight_status
+I don't need a fare refund; I'm asking about compensation for arriving five hours late.,flight_status
+Can a folding buggy travel free?,baggage
+"The whole cabin looked uncared for, from crumbs in the seat seams to stained tray tables.",complaint
+man at desk give paper only no tracking number for missing suitcase how i follow,baggage
+I was offered a voucher after NA908 was cancelled. I haven't used or accepted it. Could you arrange a monetary repayment instead?,refund
+put me on NA724 instead pls,booking_change
+"I was charged correctly, but now I need to push my return to the following Monday.",booking_change
+Can a gift card be used to pay government taxes on a reward booking?,other
+No one was at the oversized desk in Ljubljana and I need to register my missing snowboard.,baggage
+My request was approved before I replaced my bank card. I haven't received a transfer or a rejection. Could you check whether it bounced and arrange payment again?,refund
+After today's rude phone call I still need the actual money returned for my cancelled booking.,refund
+Laptop forgotten under seat 4A.,baggage
+I booked using the short version of my given name. My travel document uses the full version and I understand they should match. Please help me correct it.,booking_change
+Is there a charge to bring my child's car seat in addition to our normal allowance?,baggage
+I cancelled inside the period shown at purchase and still haven't received the promised credit.,refund
+Same route but the following weekend?,booking_change
+I no longer have the card used for purchase. Its bank account was closed last month. What do I need to do to receive my approved refund?,refund
+I need help requesting assistance without having to phone an international number.,other
+The chat adviser kept referring to details from someone else's case while dismissing my corrections.,complaint
+We deserved some basic courtesy.,complaint
+My seat-selection problem has been sorted. I now need guidance on travelling with a registered assistance dog. Please explain which documents to submit before departure.,other
+Does an infant get luggage allowance?,baggage
+The flight is late and we have time to eat; where can I find the onboard menu?,other
+I am trying to learn chess with a friend. We disagree about whether a king can move into check. Could you settle that rule for us?,other
+Our refund has now arrived in full. That doesn't excuse the agent telling us we were making things up. I am very disappointed by how the team handled the conversation.,complaint
+I paid EUR 61 for a spare shirt and toiletries because you delivered my luggage two days late.,baggage
+I'd like a flexible fare upgrade.,booking_change
+Need to cancel for a refund.,refund
+booking didnt even finish but EUR 310 gone from my card need it back,refund
+Can you tell me the expected payment date for approved request RF52964?,refund
+Still paying for a flight never taken.,refund
+Is my violin allowed overhead?,baggage
+"The checkout spinner ran for several minutes and then failed. Nevertheless, EUR 167 left my account and no ticket was issued. I need that money restored.",refund
+My umbrella was hanging from seat 12D when I left the aircraft in Tallinn.,baggage
+"My seat is fine now, but can you request a low-salt meal for the same flight?",other
+Is a transit visa needed here?,other
+strasbourg to vienna can i check in with id card or passport compulsory,other
+I need a formal invoice for a grant claim. The purchase confirmation doesn't show the taxes separately. Please provide the itemised document for booking E4N8ZY.,other
+Could you reserve a dairy-free meal for the evening service to Belgrade?,other
+ticket got initials only passport got full given names pls make them same,booking_change
+The website says NA102 is on schedule but the airport board shows a 90-minute delay.,flight_status
+can my cat come in cabin,other
+Your allowance page says one piece but doesn't give the maximum dimensions for the hold.,baggage
+"The missing luggage has arrived, but my duplicate ticket payment still needs reversing.",refund
+The upgrade offer was rejected yet Nimbus kept the bid amount from my card.,refund
+I accidentally paid for two tickets.,refund
+Do you offer student discounts?,other
+When does the airport counter open?,other
+How long was yesterday's actual delay?,flight_status
+Can I prepay excess weight for NA781 to Marrakech rather than pay at the counter?,baggage
+Why was only half returned?,refund
+need food without gluten please same ticket everything else just food request,other
+Will my dog need vaccination records?,other
+That interaction was rude and intimidating.,complaint
+No voucher; I want my cash.,refund
+My upgrade request can wait until I know whether the flight will operate at all.,flight_status
+Is NA718 still on time?,flight_status
+The cabin crew were openly arguing.,complaint
+The representative insisted on using jargon after I explained that English isn't my first language.,complaint
+Why did my refund come through in two instalments totalling less than the confirmation amount?,refund
+"The chat ended with ""anything else"" immediately after I explained how upset I was.",complaint
+Nimbus cancelled the morning service to Krakow. I see there are places on the afternoon flight through Vienna. Please put me on that option.,booking_change
+The baggage issue is resolved and there is no action needed on the case. The telephone adviser nevertheless behaved in a way I consider unacceptable. Their sarcasm made a difficult experience worse.,complaint
+My bank sees no incoming credit.,refund
+Please release my cancelled fare payment.,refund
+stop sending my case elsewhere seriously,baggage
+The ticket was purchased partly with a gift card and I want to understand how repayment will be split.,refund
+My skis are still in Oslo.,baggage
+Could you switch my fare to Flex without altering the travel dates?,booking_change
+I've never felt so unwelcome onboard.,complaint
+Your team made me feel stupid.,complaint
+Your service has really gone downhill.,complaint
+The crew spoke about customers as though we couldn't hear them from the first row.,complaint
+"The lounge felt neglected, with dirty tables and staff who seemed uninterested.",complaint
+Can I submit the missing-item form after leaving the airport if the desk was already closed?,baggage
+"The bag tracker says ""awaiting passenger information"", although I entered everything on Tuesday. I cannot edit the record anymore. What do you still need to send my things?",baggage
+Do you provide water refills for reusable bottles once we are onboard?,other
+u sent my bag to antwerp but im home in lille now pls redirect it,baggage
+What assistance is available for deaf travellers?,other
+The crew's jokes were humiliating.,complaint
+"For delayed luggage purchases, do you need itemised receipts or is a card statement sufficient?",baggage
+i landed tirana yesterday but the black trunk NA392816 didnt come with me,baggage
+I entered my family name twice and need the ticket brought into line with my passport.,booking_change
+The boarding queue was managed so poorly that families were pushed in different directions.,complaint
+We're waiting near B7 after an announcement directed us away from B9.,flight_status
+The staff at the help desk appeared more interested in chatting to each other than assisting anyone.,complaint
+Cabin bag dimensions please?,baggage
+I received a voucher as a gift and would like to use it for a future trip. The price is higher than the voucher balance. Can I pay the rest with a bank card?,other
+The card provider needs a transaction reference for the money you say you sent on 8 June.,refund
+You've charged me twice again.,refund
+Our flight reached Porto four hours late and I'd like to apply for delay compensation.,flight_status
+Seven clouds ate my homework.,other
+My instruments were inside a rigid case accepted at check-in. On arrival the hinges were bent and the lid would not stay shut. Where should I send the repair estimate?,baggage
+My outbound flight is fine as booked. The return needs to move from the 23rd to the 25th. Please leave the first segment as it is.,booking_change
+I felt uncomfortable watching the supervisor reprimand a trainee in front of everyone.,complaint
+The airline notification says the flight is cancelled due to operational reasons. A later text says check-in is open. Can you clarify the actual status of NA206?,flight_status
+Your representative rushed the call so much that I felt like an inconvenience.,complaint
+We were promised an update after the replacement crew arrived; are they here now?,flight_status
+Clothing receipts for case AMS7392 attached.,baggage
+My surname recently became double-barrelled. I have the updated passport and supporting document. Could you update the booking to the new spelling?,booking_change
+Three days without my clothes now.,baggage
+"I know the weather wasn't your fault, but I want to decline the alternative and recover my payment.",refund
+Has the first departure to Toulon been removed from today's schedule?,flight_status
+I'd like to abandon reservation Q5C8JD and have the refundable balance paid back.,refund
+At Malaga I received a suitcase with my tag attached that belongs to somebody else.,baggage
+Our flight has been cancelled due to the airport closure. I can travel from a nearby airport instead. Please arrange the available service departing from Eindhoven.,booking_change
+Your complaints process has felt dismissive from the first automated reply to the final closure.,complaint
+"The seat selection page keeps timing out. I want to move from 22E to 22C, which appears vacant. Could you make that adjustment?",booking_change
+My reservation is K7QX2M and I want the price of checking one 28 kg case.,baggage
+You owe me the seat payment.,refund
+Swap my destination to Florence please.,booking_change
+ticket money came back thx but still wanna claim compensation for those lost hours,flight_status
+Is there a printed allergen list for snacks sold during the flight?,other
+My original case was reopened and closed twice without explanation. The replies never referred to the evidence I had provided. The handling has left me with very little confidence in Nimbus.,complaint
+Our suitcases can wait; please confirm whether the aircraft is still leaving this evening.,flight_status
+I know there may be a fare difference; please price the move to the later NA832.,booking_change
+i hit pay ONCE why are there two EUR 276 charges on my bank??,refund
+Can a traveller with limited vision arrange someone to guide them between terminals?,other
+Where's the money you promised?,refund
+There are two different gate numbers on my boarding pass and the display.,flight_status
+Does Nimbus recruit cabin crew?,other
+Please confirm the current arrival estimate.,flight_status
+The website returns an error when I try to select the Saturday flight in place of Sunday.,booking_change
+cancel ticket and return money pls,refund
+The refund is now settled and I don't need any payment action. I do need to update my marketing preferences. Please stop the promotional messages about weekend breaks.,other
+Your website offered a full refund after the time change and I would like to accept it.,refund
+I was upset by how loudly the employee discussed my private circumstances at the counter.,complaint
+There's no reason for me to keep this booking now that the event is cancelled. I would like to end the reservation and receive the refundable balance. Please don't issue a replacement flight.,refund
+Can we go via Munich instead?,booking_change
+Do you offer an onboard meal without meat or fish that isn't only a salad?,other
+You downgraded me on the way to Toulouse and I want the unused upgrade amount returned.,refund
+I am disappointed that a supervisor defended the rude behaviour instead of acknowledging it.,complaint
+The long delay is beside the point here; please give back the EUR 23 paid for an unavailable seat.,refund
+When does online check-in open?,other
+I have a one-way booking to Alicante on 11 July. I now know I can come home on 18 July. Please add that return flight to the reservation.,booking_change
+Your final response made no attempt to acknowledge the distress caused by your team's remarks.,complaint
+My travel document has a hyphenated surname while the ticket has only the first part.,booking_change
+I found the cabin announcements scolding and aggressive rather than helpful.,complaint
+"The return half of my ticket was never used. Your portal only offers cancellation of the whole journey, including the leg I already flew. How do I recover just the unused portion?",refund
+The airline moved us through Vienna after a cancellation. We made it to Dubrovnik but our belongings didn't. Could you check where they ended up?,baggage
+I don't appreciate being described as impatient after waiting quietly through three contradictory instructions.,complaint
+Please retrieve my seat pocket book.,baggage
+The return currently departs from Split. We will finish our holiday in Dubrovnik instead. Can the ticket be adjusted to leave from there?,booking_change
+We need an extra day in Sarajevo and would like to travel home on the 19th.,booking_change
+I'd prefer reimbursement over travel credit.,refund
+Any news on file HEL2846?,baggage
+Our questions about the cancelled service were met with shrugs rather than respect.,complaint
+We bought our tickets separately and would like our assigned seats moved into the same row.,booking_change
+How do I earn Nimbus points?,other
+Do you recognise a disability card issued in another country for assistance arrangements?,other
+The refund amount excludes my taxes.,refund
+Where do I wait for boarding?,flight_status
+tracker says my suitcase is in ur basement but website says in transit whats going on,baggage
+I've booked the wrong month.,booking_change
+The way your team talked about another passenger within earshot made me uncomfortable.,complaint
+Can the connection be longer?,booking_change
+Please move the outbound date only for the adult listed second on the reservation.,booking_change
+Is wifi available on NA862?,other
+Several staff members walked away while we were still speaking to them in Pisa.,complaint
+I'm at gate D8 and nobody is here for the advertised departure to Sofia.,flight_status
+Your website lists wifi on some aircraft but not on my itinerary. I need to send a few messages during NA1207. Could you tell me whether connectivity is offered and what it costs?,other
+Can I move my travel to early September rather than take the refund offered for the disruption?,booking_change
+I'm putting together a rainy-day reading list. I enjoy gentle mysteries set in small villages. Can you suggest the sort of themes I should look for?,other
+The staff looked irritated whenever anyone approached the counter at Katowice.,complaint
+"The live map looks frozen over the sea, so has NA667 actually landed in Corfu?",flight_status
+Being laughed at ruined the trip.,complaint
+The seat map won't let me move from the middle to an available window position.,booking_change
+The app saved a shortened version of my given name that isn't on my passport.,booking_change
+There was a rumour in the queue that our crew had run out of working hours. Staff have given no update. Can you confirm the next expected departure time?,flight_status
+NA693 is listed twice with different boarding locations and I'm unsure which is current.,flight_status
+My seven-hour delay claim was closed as incomplete. I have the boarding pass and the airline's disruption notice. Please tell me what else the compensation team needs.,flight_status
+got enough points apparently but no idea how to use them online help pls,other
+Being sent away without even being allowed to finish a sentence was poor service.,complaint
+I need written confirmation that my suitcase is considered lost for my insurer.,baggage
+We moved to a later flight and I want to check that our checked items were moved too.,baggage
+The staff response to my allergy question was flippant and showed very little concern.,complaint
+Does Nimbus sell annual lounge memberships?,other
+"The service charge was returned but not the underlying fare, which seems backwards.",refund
+How much for another bag?,baggage
+I need an invoice for work.,other
+I'd prefer the evening departure.,booking_change
+The waiting area was embarrassingly chaotic.,complaint
+Has anyone handed in a silver reading light from the back row of NA1640?,baggage
+Two passengers need adjacent seats please.,booking_change
+I bought a front-row seat because I needed more room. At boarding I was assigned 29B with no explanation. Please return the seat-selection payment.,refund
+My neighbour's wind chime seems to be playing the same three notes forever.,other
+Does cancelling only one traveller allow their unused fare to be refunded separately?,refund
+Can I pack two cases?,baggage
+"Still advertised as scheduled, really?",flight_status
+Do babies get bassinets onboard?,other
+One of our children now needs their own seat rather than travelling on a lap. The adult reservations are already paid. Please amend the child booking accordingly.,booking_change
+How do I obtain a delay certificate for NA297 on 9 October?,flight_status
+Can you append a flight back to Nantes on 10 October to reference Y5H9KB?,booking_change
+My partner is waiting at the arrivals hall in Bari. I am still onboard before takeoff in Lyon. What arrival estimate should I give them?,flight_status
+I need a receipt in EUR rather than the currency displayed in my app.,other
+I have a prepaid taxi waiting at Newcastle. The booking confirmation says 18:20 and your latest email says 19:50. What is the current predicted arrival?,flight_status
+My companion is deaf and may not hear gate announcements. The flight details are already confirmed. What support can Nimbus arrange to communicate boarding instructions?,other
+Has Nimbus officially cancelled the evening flight from Bournemouth to Limoges?,flight_status
+The strap and two buckles disappeared from my hiking pack somewhere between Bremen and Turin.,baggage
+"The bag arrived eventually, but your team's lack of courtesy throughout the search was unacceptable.",complaint
+Could the second leg go through Milan rather than Rome because the connection would be easier?,booking_change
+Please return the money for a business upgrade that disappeared when the aircraft was substituted.,refund
+Take me off and repay me.,refund
+Can you explain the difference between reward points and status credits?,other
+The passenger's given name and family name are in the wrong fields. All the letters are present and no traveller is being replaced. Please correct the order.,booking_change
+Buying an extra hold bag online?,baggage
+Are your gift vouchers transferable?,other
+Compensation for yesterday's six-hour delay?,flight_status
+There is a typo in the last three letters of the passenger surname on U7F2QX.,booking_change
+Is NA351 from Catania airborne yet or still waiting for clearance?,flight_status
+Could I board at another airport?,booking_change
+I'd like the nonstop option now.,booking_change
+My suitcase contents are partly missing.,baggage
+Can I preselect a kosher dinner?,other
+How far behind schedule are we?,flight_status
+Can you reimburse EUR 46 for basic clothes bought while my checked case was stuck in Lyon?,baggage
+Does your mobile boarding pass work offline once it has been saved?,other
+Cancel mine and send money back.,refund
+Is tap water available during service?,other
+Is there a way to link my loyalty number to a ticket bought by my employer?,other
+I accept the baggage allowance rules and paid the applicable fee. My concern is that the clerk mocked me for not understanding the wording. There was no need to embarrass me publicly.,complaint
+What is the minimum remaining passport validity you check for travel to Muscat?,other
+Has yesterday's overnight service from Agadir now arrived in Lille?,flight_status
+The boarding staff contradicted each other and then blamed the passengers for being confused.,complaint
+There was a tablet in the pocket facing seat 27F when I got off NA603.,baggage
+Our tickets say Light but the confirmation doesn't explain how much we can put in the hold.,baggage
+The courier called while I was travelling between hotels. We couldn't agree on a collection point. Could someone arrange another attempt tomorrow morning?,baggage
+"Purple Tuesday banana engine, please advise the imaginary committee.",other
+The repayment notification is in EUR but my card account received a much smaller amount even allowing for conversion. Could you check the amount Nimbus actually sent? The reference is H8F3PT.,refund
+I need the EUR 390 recovered before I can afford to arrange another trip.,refund
+The agent suggested I could claim compensation because of the long wait. We finally arrived five hours after the scheduled time. Can you point me to the application process?,flight_status
+whole convo felt like ur staff wanted to win an argument not hear me out,complaint
+I have a refund request open for a seat charge. This message concerns the cracked suitcase from the same journey. Please tell me what evidence your damage team needs.,baggage
+Would a soft pet carrier be acceptable under the seat on NA315?,other
+We felt judged for asking questions.,complaint
+"Your employee laughed when I described the missing case. I'll discuss that separately, but first I need the case sent to my home rather than the airport. The report is GVA6614.",baggage
+Your baggage desk already has my report; this is a request to repay the unused lounge booking.,refund
+Your agent quoted a deduction of EUR 30 but the money sent back is EUR 80 short.,refund
+"The booking is unchanged but the live tracker now says ""not operating"", which needs clarification.",flight_status
+The general standard of cleaning on the Graz service was disappointing.,complaint
+Your agent's tone about my spelling correction was patronising and unnecessary.,complaint
+The connection is tight and I need to know our predicted touchdown time in Stockholm.,flight_status
+Only my travel companion's date differs.,booking_change
+It is frustrating to receive five identical apologies that don't address anything I actually wrote.,complaint
+Does your latest notice mean only the morning Cluj service is cancelled or both departures?,flight_status
+"The cancellation wasn't your employee's fault, yet the sarcasm toward stranded passengers certainly was.",complaint
+The app still shows my checked item in departure sorting although I've reached Budapest.,baggage
+"The return flight was removed by Nimbus, so please pay back that unused portion.",refund
+I'd like to know whether a 55 cm roller fits your cabin allowance on NA102.,baggage
+"Because the flight arrived five hours late and ruined my plans, I want my ticket money back.",refund
+I've decided to stay until the festival ends and would like the return on 7 May.,booking_change
+Wrong card received the repayment.,refund
+Add a flight home on Sunday.,booking_change
+The missing suitcase was delivered yesterday and I don't need further tracing. I do want to say how unpleasant the process was. The staff repeatedly treated my questions as an annoyance.,complaint
+NA230 in nice yet anyone know,flight_status
+I use a portable medical device with a rechargeable battery. It needs to stay with me during the flight. Where can I find the approval requirements before travelling?,other
+I selected July instead of June.,booking_change
+Refund only the unused return please.,refund
+Travel date wrong by one day.,booking_change
+My booking for NA617 still shows a 10:05 departure. The airport app says the flight is cancelled. Could you confirm which information is correct before I start the drive?,flight_status
+I need my booking adjusted so I arrive in Helsinki before 18:00 on Wednesday.,booking_change
+bag still missing but rn i need to move my next flight to gothenburg,booking_change
+The driver is waiting outside and needs to know whether we've been diverted to another airport.,flight_status
+The midday service was cancelled and I'd prefer tonight's flight over tomorrow's offered replacement.,booking_change
+Can you undo this duplicate debit?,refund
+Is it possible to get the taxes back without buying another flight or accepting points?,refund
+I'm cancelling my trip to Trieste and want to know how to recover the refundable part.,refund
+ur staff acted like we were pests,complaint
+we wait hours for late plane then crew joke we should enjoy it very disrespect,complaint
+Is a printed visa required at the desk or can I show the digital approval?,other
+I'm not travelling after the schedule disruption and would like the ticket price restored to my balance.,refund
+I found the whole experience degrading.,complaint
+you took money from old card AND new card pls reverse one of them,refund
+The case was delivered at midnight with its zip open. My shoes and charger are gone. Please explain how I record missing contents.,baggage
+Is there a separate child price for entry to the airport lounge in Riga?,other
+Every department just blamed another department.,complaint
+The handle came off in transit.,baggage
+Our group gained another traveller and we want them included under the same reservation.,booking_change
+"Please check whether the inbound NA340 has parked yet, as our departure depends on it.",flight_status
+"My bag was late and the flight was miserable, but this request is for the unused seat payment.",refund
+Need proof of our arrival delay.,flight_status
+Do you serve halal meals?,other
+can we stay two days longer,booking_change
+Your agent acted as though asking for an explanation was an unreasonable demand.,complaint
+Can a pet reservation be made online or does an agent need to approve it first?,other
+Need to bring my return forward.,booking_change
+Would it be possible to leave from Dusseldorf while keeping the booked destination?,booking_change
+The website says my repayment was issued on 12 March but my bank has received nothing.,refund
+"I paid for two breakfast boxes and received one, so please return the other box's price.",refund
+Our itinerary has a 45-minute connection in Frankfurt. With two small children we'd prefer more time. Could you put us on the earlier feeder flight?,booking_change
+I want confirmation of the cancellation before I leave home for the airport.,flight_status
+Our concerns were brushed aside again.,complaint
+I use a mobility aid and the counter agent spoke only to the person with me. I answered several times but continued to be ignored. That treatment made me feel invisible.,complaint
+Please return my ticket payment.,refund
+Do I pay for a second suitcase per journey or separately on each connecting flight?,baggage
+The refund question is resolved; now I want to reserve a different departure time.,booking_change
+My refund link has expired.,refund
+colleague can only go thurs but im still going weds can u split our dates,booking_change
+"My plans fell through, so please cancel reservation T3W6HK and tell me what can be returned.",refund
+Where should I upload damage photos?,baggage
+Sports equipment allowance on NA4471?,baggage
+Suitcase delivered to the wrong hotel.,baggage
+Are the cancellations affecting Grenoble?,flight_status
+EUR 9 for streaming that doesnt work lol can i get that back,refund
+The seat attendant complained loudly about families boarding and made us feel unwelcome.,complaint
+Both transactions have now cleared.,refund
+Where can I read your privacy policy?,other
+My hearing-aid charging case was left in the overhead bin above row 3. I noticed after leaving the terminal in Basel. Please contact the aircraft team before the next departure.,baggage
+One of our tickets was upgraded at the airport. Does the extra checked allowance apply only to that passenger or can the family share it? We're travelling together under P8L2VC.,baggage
+we were going to rennes. accommodation now in brest so need to fly there instead. can u sort the ticket?,booking_change
+There was a strong smell around my seat and the attendant simply told me to ignore it.,complaint
+"The prepaid celebration package never appeared onboard, so could you return its EUR 34 price?",refund
+"I paid for priority boarding and boarded last with everyone else, so can you reimburse that service?",refund
+Can you tell me if the airport closure has affected tonight's flight to Tivat?,flight_status
+I didn't board the replacement flight and would like the unused ticket cost returned.,refund
+"I received an alert saying ""new time 01:20"" for NA350. My original booking was for 22:55 on 7 August. Does this mean departure in the early hours of 8 August?",flight_status
+I need to take a bicycle and an ordinary suitcase to Girona. The website only lets me select one type of checked item. How do I buy the correct allowance for both?,baggage
+The return service from Mykonos isn't showing among tomorrow's departures. It remains on my booking under A8Q5MV. Has Nimbus cancelled it?,flight_status
+Your support replies feel copied blindly.,complaint
+The staff kept discussing my fare while I tried to explain the problem. My suitcase is still in the departure airport according to its tracker. Please arrange for it to follow me to Bergen.,baggage
+I booked a meal marked vegetarian for NA733. I avoid dairy as well as meat and fish. Could you tell me whether that option is suitable or arrange a vegan one?,other
+What caused the five-hour late arrival on NA258 and how do I claim compensation for it?,flight_status
+Would you confirm the precise time the doors opened on arrival in Munich yesterday?,flight_status
+The flight was delayed overnight and my suitcase arrived torn. Those problems are being handled elsewhere. This message is asking for my unused upgrade fee back.,refund
+Our departure time has changed three times in the last hour and I need the current estimate.,flight_status
+I'd like to know why the flight to Reus disappeared from the live departures page.,flight_status
+Is the lounge accessible by lift?,other
+asked nicely and got shouted at like a naughty kid honestly shocking,complaint
+"At the Palermo desk I waited patiently for my turn. When I reached the front, the employee announced that I should have known the answer already. That was unnecessarily condescending.",complaint
+Can the cabin crew heat a sealed bottle of baby formula during the journey?,other
+My travel document is valid on the departure date but expires three months later. I am going to Rabat for a week. What validity does Nimbus require at check-in?,other
+I forgot glasses in the cabin.,baggage
+Can my brother join our reservation?,booking_change
+Would a knitted umbrella keep a pineapple warm in winter?,other
+This isn't the hospitality you advertise.,complaint
+"The promised reimbursement is being processed, but I still want to upgrade my next segment.",booking_change
+The kitchen timer went off while nothing was cooking. Then the cat looked offended. I think our household needs a plot twist.,other
+Remove the extra letter in surname.,booking_change
+Our child needs adding to the booking.,booking_change
+Please send proof of the card credit so my bank can trace where it went.,refund
+How do I request a bassinet for an infant on the overnight service?,other
+Blue spoons dance on Tuesdays.,other
+We were unable to enter the lounge because Nimbus had stopped its agreement with that airport. Our prepaid passes cost EUR 64. Please reimburse them.,refund
+Your counter weighed my cabin roller at 9 kg and I need to know the permitted maximum.,baggage
+Are passengers entering the aircraft now?,flight_status
+My imaginary robot insists that Wednesdays are made of cheese. I asked it to show its calculations. It replied with a drawing of a very serious duck.,other
+Do miles earned through a partner airline count toward Nimbus status?,other
+Please add my newborn to this.,booking_change
+It's disappointing to pay for a premium experience and be met with a sticky table and indifference.,complaint
+app says 4pm board says 6pm??,flight_status
+The airport has reopened after the wind warning. Has Nimbus reinstated the cancelled service to Kiruna? I need to know whether it is operating today.,flight_status
+Can you track your promised transfer?,refund
+My sister already received her money for the same cancelled flight and I'm still waiting.,refund
+Will NA184 operate this afternoon?,flight_status
+I need to arrive a day before my travelling companion. We are on one reservation. Can you move only my outbound flight to 4 November?,booking_change
+my checked bag is split right down the side and airport ppl said msg u here,baggage
+All I have for tomorrow's conference is the outfit I flew in; where are my other clothes?,baggage
+The entertainment page mentions films but doesn't list accessibility features. Are subtitles available in English? I would like to know before deciding whether to bring downloaded content.,other
+There are now two separate card debits for the same seat selection on NA289.,refund
+tried resetting password twice today. link arrives then says expired straight away?? need help getting back in pls.,other
+The gate team dismissed a parent's concerns while the child was visibly distressed.,complaint
+Could I exchange the paid window position for an aisle in the same row?,booking_change
+Move me to an aisle please.,booking_change
+Will Nimbus cover these replacement socks?,baggage
+Both tickets are correct except that our seats are on opposite sides of the aircraft.,booking_change
+The bag you promised this morning still hasn't reached my temporary accommodation.,baggage
+Is the return from Kefalonia likely to depart at 22:00 as your last alert stated?,flight_status
+Could you confirm the actual landing time in Funchal for yesterday's NA476?,flight_status
+The entire journey from Bari felt disorganised and far below the standard Nimbus advertises.,complaint
+"I arrived in Seville on NA271 with two checked cases. Only the smaller one appeared, and the counter was unattended. Please help me open a report for the other one.",baggage
+Your promises have meant absolutely nothing.,complaint
+The support email blamed me for a mistake your own team had already acknowledged.,complaint
+My boarding pass is saved in the app. I may not have mobile data at the airport in Skopje. Will the saved barcode still work without an internet connection?,other
+Is that arrival time local?,flight_status
+Was today's Poznan flight called off?,flight_status
+Could you add a stop in Oslo between my existing flights to and from Tromso?,booking_change
+"Despite the awful onboard meal, I'm contacting you specifically about my unrecovered checked bag.",baggage
+Where can I buy gift cards?,other
+agent hung up while i was talking. i wasnt shouting or swearing or anything. really rude way to treat someone asking for help.,complaint
+This suitcase isn't mine at all.,baggage
+Two items checked; only one returned.,baggage
+"I booked economy to save money, but my employer has now approved a higher budget. Could you quote and apply a premium economy upgrade? The longer flight is NA2206.",booking_change
+We arrived more than six hours behind schedule after a technical problem. I am not requesting a ticket-price repayment. I would like the delay compensation claim reviewed.,flight_status
+I purchased the premium cabin expecting attentive service. The seats were worn and requests for basic information were met with impatience. It was a disappointing experience throughout.,complaint
+Is 16:35 the revised takeoff time?,flight_status
+flight was so late i missed the whole workshop. want the money i paid for the trip back. how do i ask for that formally?,refund
+Will we reach Rovaniemi before midnight under the latest estimated schedule?,flight_status
+Can my voucher become cash instead?,refund
+Are there electrical outlets at every economy seat on the longer aircraft?,other
+my english not perfect but cabin person making joke about it is not nice,complaint
+"The belt stopped in Valencia before my green duffel came out, so what happens next?",baggage
+When should our driver expect us?,flight_status
+An extra overnight in Madrid would suit us better than the currently booked short connection.,booking_change
+"I need to correct the passenger's full name, not purchase a ticket for a different person.",booking_change
+Please reverse the payment for the lounge pass because the lounge was shut when I arrived.,refund
+Can the infant already listed on my booking be given their own seat?,booking_change
+lol thats what u call service,complaint
+Can someone confirm whether NA1937 has been cancelled by Nimbus or merely postponed?,flight_status
+Move my seat away from toilets.,booking_change
+The counter wanted EUR 90 for an extra piece on the return journey. I haven't bought it yet because I thought my fare included two. Can you verify the allowance on C6T9RW?,baggage
+Money back for the missing wifi?,refund
+A staff member told me my extra suitcase would be EUR 40 but the website quotes EUR 65.,baggage
+"When you cancelled the Prague service you promised cash, not the credit note I've received.",refund
+Nimbus put us in economy despite our paid cabin upgrade. The original flight operated and we travelled on it. We are requesting the unused upgrade cost.,refund
+What a miserable experience with Nimbus.,complaint
+"I submitted a delay-compensation request for NA186 on 27 January. The reply says the arrival was only two hours late, but our documents show nearly five. Could you review the recorded times?",flight_status
+I need confirmation that my request to cancel and recover the fare actually went through.,refund
+My conference in Porto has moved from 8 March to 10 March. I can keep the same route and fare class. Could you move my outward flight two days later?,booking_change
+new flight is tmrw so can we pls get our checked cases back for tonight,baggage
+How can I correct the bank details on a refund that has not yet been paid?,refund
+I came away from the Cork counter feeling humiliated by the way I had been addressed.,complaint
+The flight delay itself was outside my control and I accepted it. What I found unacceptable was the lack of empathy toward families trying to cope. The team's jokes were particularly upsetting.,complaint
+Can I upgrade using cash?,booking_change
+I paid for row 2 but find the view obstructed on this aircraft type. Please move me to a window around row 10. I am happy to cover any difference.,booking_change
+A flight attendant made a dismissive comment about my food restrictions. I wasn't demanding special treatment and had only asked a question. The response made me feel unwelcome.,complaint
+I found the constant sales announcements intrusive and the overall onboard atmosphere unpleasant.,complaint
+afternoon one works better can u swap,booking_change
+My cactus looks unusually philosophical.,other
+Are oxygen concentrators permitted onboard?,other
+Your form rejects my delayed flight number even though it appears on the boarding pass.,flight_status
+Terrible communication from start to finish.,complaint
+We were meant to reach Oslo at 14:10 and the doors opened after 19:00. I would like to claim compensation for that delay. Where should I submit the details?,flight_status
+Left my headphones in 18C.,baggage
+"I have no further request about the ticket, but the way the case was handled deserves criticism.",complaint
+I'm taking a surfboard to Biarritz and can't find the applicable handling charge.,baggage
+Replace my nickname with passport spelling.,booking_change
+"I don't mind reasonable rules, but I do mind them being explained with open contempt.",complaint
+How do I reset my password?,other
+Which terminal gate is boarding us?,flight_status
+Please move reservation N6C2RV from 14 August to 16 August while keeping the same route.,booking_change
+"The new office is in Basel, so I no longer need my booked flight to Bern.",booking_change
+The agent hung up mid-sentence.,complaint
+I'm seeking compensation for lost hours.,flight_status
+phone says flight delayed ok but BY HOW MUCH am i meant to guess,flight_status
+My prepaid internet package didn't work for any part of the eight-hour journey. The crew confirmed there was no connectivity. I'd like the EUR 22 charge returned.,refund
+Can a 32 kg suitcase be accepted if I pay the excess charge at departure?,baggage
+I purchased a hot dinner and a drinks bundle before flying to Larnaca. Neither was available onboard. Please repay those unused services.,refund
+My fare was sold as refundable until departure. I now need to stay home for family reasons. Please cancel it and put the eligible amount back on my card.,refund
+I felt singled out when the attendant criticised my clothing in front of the row behind.,complaint
+I can deal with the missed connection later; please locate the medication pouch left in 9B.,baggage
+dont move me anywhere yet just tell me is my flight running or no,flight_status
+cant submit refund form it just throws me back to home page every time,refund
+return my unused meal money please,refund
+When will the credit reach me?,refund
+Any cancellation news for tomorrow?,flight_status
+"I can't use a voucher that expires next month. It came from a flight your airline cancelled, rather than a purchase I voluntarily abandoned. I'd like the money returned.",refund
+The EUR 42 for a pet booking was retained even though the service was never confirmed.,refund
+The return airport should be Belfast rather than Dublin on reservation M4T8WN.,booking_change
+Both payment attempts for my Strasbourg ticket succeeded despite the first one displaying an error.,refund
+The status shown on my loyalty account dropped unexpectedly this month. I thought my recent flights would qualify me for another year. Could you explain the assessment period?,other
+Will your courier deliver a recovered suitcase to an island address near Zadar?,baggage
+The cabin was absolutely filthy.,complaint
+We received the assistance eventually but felt belittled every time we asked for an update.,complaint
+Your website apologises for the disruption but offers no tracking details. All I want is to know where the large grey case went. Its tag was printed in Exeter before NA715 departed.,baggage
+NA140 was scheduled to land in Verona but appears on the Bologna arrival board. Has it been diverted? Please confirm where the aircraft is expected to arrive.,flight_status
+Do Nimbus members earn points for purchases made during the flight?,other
+"Could the person handling RF18723 explain why the repayment is still labelled ""pending approval""?",refund
+What time did the doors open?,flight_status
+After the cancellation I have a new itinerary; does my transit document cover the new airport?,other
+Can someone verify the airline cancellation notice for booking L3Y8DF?,flight_status
+Absolutely dreadful treatment at the counter.,complaint
+"I appreciate the repayment was completed, yet the insulting comments during the process remain unacceptable.",complaint
+Can I claim for arriving late?,flight_status
+My daughter's sports kit is in the missing duffel and she needs it before Saturday's match.,baggage
+The flight time moved earlier and I need to know the new online check-in opening window.,other
+We are already booked as two adults. A friend would now like to travel with us. Can a third passenger be added to the same reservation?,booking_change
+I can walk short distances but cannot stand in a long queue. I don't need a different seat or flight. Please help me arrange assistance through the airport.,other
+Are there audio safety instructions available for someone who cannot see the demonstration?,other
+My employer booked the 06:15 service without checking my availability. I cannot reach the airport that early. Could I take NA681 at 11:50?,booking_change
+where do i get boardingpass pls,other
+customer service been a total nightmare,complaint
+We flew from Brno to Sofia on 6 April. The belt emptied without our folding buggy appearing. Please find out whether it was unloaded elsewhere.,baggage
+I cancelled the paid meal before the cutoff displayed in the app. It disappeared from the booking but the charge remained. Please return that payment.,refund
+We are travelling with a baby and need to prepare feeds onboard. I would like to know whether warm water is available. We will bring the formula ourselves.,other
+I left a small canvas pouch on NA225 and would like to contact your aircraft lost-property team.,baggage
+which gate for lublin 1845 cant hear a thing on the speakers,flight_status
+The planned return from Bergen won't work and I'd like to fly home from Stavanger.,booking_change
+Please tell me whether the arrival time for NA844 is displayed in departure or destination time.,flight_status
+The suitcase I collected smells strongly of fuel. Several garments inside have the same smell despite being packed in bags. I need to report contamination during transport.,baggage
+"The original connection no longer suits us after the timetable revision, so please select the longer one.",booking_change
+"The employee was unhelpful, but my actual request is to bring my outward flight forward.",booking_change
+Did yesterday's NA782 eventually operate?,flight_status
+How much comes back after cancellation?,refund
+Do pets travelling in the cabin need to remain inside their carrier for the whole journey?,other
+The original vegetarian meal request disappeared after I moved the travel date. My new itinerary is already correct. Please reinstate the food preference for both legs.,other
+Would you add my toddler as a seated passenger to the adult booking already confirmed?,booking_change
+I never received that paid upgrade.,refund
+Nothing on the tracing site explains why my case went to Krakow when I flew to Split.,baggage
+Need essentials while you find it.,baggage
+date fixed thanks but veggie food request gone now can u put it back,other
+The delay forced us to buy basic washing supplies in Faro. Our suitcase arrived the following evening. I would like Nimbus to cover the EUR 29 we spent while waiting.,baggage
+There was no report desk open when NA1308 arrived in Poznan after midnight. I photographed the empty belt and kept my tag. Can I report the missing case online now?,baggage
+At the counter I paid EUR 45 for a bag that I had already paid for online. The suitcase travelled and I'm home now. Please reimburse the second payment.,refund
+The attendant rolled their eyes repeatedly.,complaint
+Put us together if seats remain.,booking_change
+Does your company publish annual emissions figures for its passenger operations?,other
+Are they boarding at C12?,flight_status
+Can spouses pool their weight allowance?,baggage
+Could my reservation start in Cardiff instead of Birmingham if I cover the fare difference?,booking_change
+I planted basil last week and it has grown sideways. The window faces north and the pot gets watered daily. Any ideas about what I should try?,other
+Could you send the missing EUR 14 from my approved meal refund?,refund
+Please verify the date and time NA873 arrived in Brindisi last Thursday. I need that information for my delay compensation application. The flight crossed midnight.,flight_status
+The crew on my last trip were lovely and I'd like a more comfortable cabin next time. Can I pay to upgrade the Palermo segment to business? I already have an economy ticket.,booking_change
+The essentials form keeps rejecting my receipts as unreadable. They are clear PDF scans totalling EUR 58. Is there another way to submit them against my delayed-bag record?,baggage
+"My meeting finishes at noon, so could I take the 15:40 service out of Brussels?",booking_change
+Which gate for the Turin service?,flight_status
+Who pays for emergency toiletries?,baggage
+Is the infant meal suitable for a ten-month-old or should I bring our own food?,other
+Could I land in Kaunas instead of Vilnius using the value of my current ticket?,booking_change
+"Any estimate beyond ""more information soon""?",flight_status
+"I travelled on NA405 from Bologna on 12 February. The table was sticky and the seat pocket contained rubbish from the previous passenger. When I mentioned it, the attendant shrugged and walked away.",complaint
+I hate how dismissive you've been.,complaint
+"The ticket was nonrefundable, which I understand. However, I did not fly and would like the unused airport taxes returned. Booking reference is W2K7NG.",refund
+I've been without my checked bag for four days in Geneva. I bought toothpaste and a few basic clothes for EUR 103. Please tell me how to recover that expense.,baggage
+"The broken reading light was minor, but being laughed at for mentioning it was not.",complaint
+still on ground whats going on,flight_status
+"Our bag is still being traced in Copenhagen. We need to stay here until tomorrow, so please postpone our onward flight to Aalborg. The reservation is S6B4HZ.",booking_change
+What evidence should I attach when claiming compensation for last week's lengthy arrival delay?,flight_status
+Is tomorrow's service to Perpignan still scheduled after the aircraft problem this evening?,flight_status
+u took the same payment twice,refund
+Are loyalty points awarded on tickets paid for partly with a voucher?,other
+I'd like to know whether live television is available on your aircraft.,other
+The baggage report won't accept my tag number even though I copied it directly from the sticker.,baggage
+"screen says ""paid back"" but nothing in bank not even pending whats happening",refund
+Please verify the airline cancelled NA305.,flight_status
+Refund status for booking R8Z4QN?,refund
+The refund email arrived without an amount or an estimated transfer date.,refund
+Please explain how to activate a gift card that was purchased at an airport counter.,other
+I requested a refund three weeks ago and received an approval email. Since then nothing has appeared on my card. Can you trace the payment?,refund
+The way you handled us hurt.,complaint
+How do I register a service dog?,other
+My cat has travelled by train but never by air. I would like to understand the cabin-carrier requirements before buying a ticket. Is there also a limit on pets per flight?,other
+Departure board blank for my service.,flight_status
+Does the fog affect NA565?,flight_status
+How can I claim EUR 89 of essential purchases against reference DUB5271?,baggage
+I would like to delete my unused Nimbus account and understand what data is retained.,other
+Do you count the delay until touchdown or until passengers can leave the aircraft for compensation?,flight_status
+Two charges for one sandwich?,refund
+That sarcastic response was unnecessary.,complaint
+Two booking confirmations appeared after a checkout error and I need one payment returned.,refund
+I was told the tax repayment would be automatic after my no-show but nothing has arrived.,refund
+Do you offer fear-of-flying courses?,other
+I was promised EUR 208 after cancellation and only EUR 108 reached my account.,refund
+The upgrade failed but payment stayed.,refund
+My return ticket includes a case but I'm unsure whether the outward leg includes one too.,baggage
+missed airport train need tonights flight instead is there space for me,booking_change
+"Before I buy another ticket, how many hold pieces are included in your Flex fare?",baggage
+We were spoken to like children.,complaint
+"My ticket refund is complete, but the points deducted for it haven't returned to my loyalty account.",other
+The crew appeared irritated whenever passengers needed help locating their seats. I watched several people being spoken to sharply. That is not the welcoming atmosphere I associate with good service.,complaint
+Can you explain prime numbers?,other
+Your apology sounds completely insincere.,complaint
+I asked a straightforward question about boarding. The employee copied my accent and another member of staff laughed. I found that interaction humiliating.,complaint
+A supervisor openly criticised another staff member while passengers were boarding. The exchange was loud and uncomfortable to witness. It didn't give a good impression of Nimbus.,complaint
+you closed my feedback with some nonsense about fares that wasnt even my point,complaint
+Route me through Stockholm this time.,booking_change
+I understood that the flight was delayed; what upset me was the staff laughing at worried passengers.,complaint
+Cancel the entire reservation for me and process the cash option shown in the confirmation.,refund
+Which cards earn lounge entry?,other
+My booking was upgraded and I want to know whether that includes access to the lounge.,other
+Empty belt and everyone has left.,baggage
+"Send me to Bristol, not Leeds.",booking_change
+The service desk gave conflicting information and then accused us of not listening.,complaint
+"My booking was corrected eventually, but the contemptuous attitude along the way was shocking.",complaint
+Please postpone my outward journey.,booking_change
+Your agent changed my route successfully last week. The issue is that the additional fare was collected twice. Please return one of the EUR 58 debits.,refund
+Does your lounge in Thessaloniki provide showers for connecting passengers?,other
+Can I take tomorrow's NA318?,booking_change
+"The refund form asks me to select a flight, but the cancelled segment has vanished. The booking still exists under J4R6XB. Please help me claim its price back.",refund
+Are we leaving tonight at all?,flight_status
+Please reroute our connection through Copenhagen because the Amsterdam connection is too short.,booking_change
+"My missing-item case is finished, but the dismissive way it was handled has lost my trust.",complaint
+My red backpack never appeared.,baggage
+No departure appears for NA4320 even though my reservation still shows today's date.,flight_status
+Is there a separate allowance for a musical instrument purchased its own seat?,baggage
+"We were moved to another seat and that is sorted. What concerns me is the departure time, which has disappeared from the app. When are we now expected to leave?",flight_status
+We have been sent from gate A6 to A16 and then back again. Both displays now show different destinations. Where is NA421 boarding?,flight_status
+That earlier refund issue is settled; I now need the location of my checked stroller.,baggage
+Please reimburse the express boarding supplement that your ground team said was unavailable in Cork.,refund
+trying reset password but email never comes account def exists whats wrong,other
+There is a strike mentioned in the news and I need today's operating status for my booked flight.,flight_status
+You sorted the travel date but made the process so unpleasant that I no longer trust your service.,complaint
+Can I buy a gift voucher in EUR while the recipient uses a different currency?,other
+I regret choosing Nimbus after the cold and impatient treatment we received in Kos.,complaint
+I received the correct seat and am not asking to move again. I am disappointed that the agent called me difficult for checking where my child would sit. That remark was unfair.,complaint
+We planned to come home on Sunday but our host can accommodate us longer. Could we return on Wednesday instead? The booking reference is F2R7MC.,booking_change
+The airport website shows landing at 13:10 while your message says 14:25.,flight_status
+"Our seats were reassigned after a change of aircraft. That is fine, but the same message also says there is a timing update without giving one. When is takeoff now planned?",flight_status
+The flight was rescheduled and my new connection is much longer. I can manage that if there is somewhere quiet to wait. Is lounge access available for purchase in Vilnius?,other
+"I was told three different things by three members of staff. When I politely pointed this out, the supervisor accused me of trying to cause trouble. I left the conversation feeling intimidated.",complaint
+"My dietary request is sorted, but will today's service to Rhodes leave at the advertised time?",flight_status
+My flight was delayed yesterday; does the lounge pass remain valid while I wait today?,other
+"My arrival was late and I'm exhausted, so please arrange delivery of the suitcase you located.",baggage
+Can I submit a delay compensation claim for the whole booking or must each adult apply?,flight_status
+I don't consider laughing at a customer's confusion an acceptable way to deliver instructions.,complaint
+"The flight was cancelled, so please arrange the offered alternative through Zurich for me.",booking_change
+Am I entitled after five hours?,flight_status
+"An agent described my refund enquiry as ""wasting time"", which I found highly unprofessional.",complaint
+Can you reopen the repayment request that was closed when I failed to upload my statement?,refund
+I'd like 14F if it's free.,booking_change
+I need written confirmation that Nimbus cancelled the 2 December flight to Tallinn.,flight_status
+Being shouted at was unacceptable.,complaint
+Your team repeated my personal issue across the desk loudly enough for strangers to hear.,complaint
+The baggage information is clear now; can you tell me how early I should arrive for check-in?,other
+"Your agent was impatient, but my immediate request is a copy of the purchase receipt.",other
+What are the conditions for carrying a medical oxygen concentrator during takeoff?,other
+That was an incredibly dismissive reply.,complaint
+The latest text gives 23:40 as the new departure time. The airport curfew starts soon after that. Is the flight still expected to operate tonight?,flight_status
+The replacement seat is fine; what I need now is the updated departure time.,flight_status
+Which desk records missing suitcases?,baggage
+Can I use Bluetooth headphones onboard?,other
+Please refund that abandoned purchase.,refund
+Has the aircraft assigned to my Inverness flight arrived from its previous journey?,flight_status
+I'd rather have the EUR 94 back than accept another promotional travel voucher.,refund
+Can you help me think of a title for a poem about empty libraries?,other
+I'd like my unused fare refunded.,refund
+I don't think a distressed passenger should be told to stop being dramatic.,complaint
+Please trace tag NA008731.,baggage
+Please let me know if gate H3 has become H13 because the announcement was unclear.,flight_status
+I packed a sealed box of pottery and it emerged from the hold with the bottom crushed.,baggage
+clicked wrong saturday need 22 feb not 15 feb how to correct it,booking_change
+I'd like guidance on making the trip easier for an autistic adult who finds queues difficult.,other
+The screen says cancelled; is it?,flight_status
+The meal was cold and the response from the crew made the whole experience worse.,complaint
+The flexible return was unused and I want its remaining value paid out instead of held for later.,refund
+bag drama over now thx can u send boarding pass again need for work expenses,other
+Being ignored at the counter while staff checked their personal phones was infuriating.,complaint
+Please correct the date of travel on the second passenger's ticket to match mine.,booking_change
+We heard an announcement about a technical issue and need the latest timing for NA780.,flight_status
+That supervisor spoke over me constantly.,complaint
+Would Nimbus review my compensation request after a technical fault kept us waiting all afternoon?,flight_status
+can see ticket in app but no boarding pass button where is it hiding,other
+Please put my mother on the same departure as me rather than the one four hours later.,booking_change
+My extra suitcase was carried correctly; I only want the accidental second baggage payment reversed.,refund
+Need delay compensation claim instructions please.,flight_status
+"My bank has confirmed both EUR 198 transactions are settled. There is only one booking, D6V9LA. Please reverse the second charge.",refund
+Your premium service felt distinctly cheap.,complaint
+"Five hours after the scheduled arrival we finally disembarked, so am I eligible for compensation?",flight_status
+Are camping backpacks treated the same as suitcases when calculating the extra-piece fee?,baggage
+Any update on NA4471 please?,flight_status
+Please correct the passenger title.,booking_change
+The crew spoke sharply to my elderly companion when she took a little longer to respond.,complaint
+Make the return a week later.,booking_change
+we give baby travel cot at gate but at arrival nobody give back,baggage
+Is there a way to check in online when the app cannot read my passport chip?,other
+Departure pushed again or still 21:10?,flight_status
+extra kilos cost how much pls,baggage
+Yesterday's last service from Montpellier was repeatedly postponed. I left the airport after staff said it would not operate. Could you provide written confirmation of the airline cancellation?,flight_status
+crew were amazing on todays flight how do i send them a proper thankyou,other
+Can I pay using a voucher?,other
+What's holding up our departure?,flight_status
+An unopened suitcase arrived with muddy water inside and I need to record the damage.,baggage
+My card expired after I bought the ticket; how will you return the amount now?,refund
+The live tracker shows NA521 over the coast but hasn't updated for an hour. Our family member should be arriving in Essaouira. Can you confirm whether the aircraft has landed?,flight_status
+Your service recovery emails talk about care but the actual conversations have felt hostile.,complaint
+Does the departure lounge in Budapest have a quiet area suitable for working?,other
+I sent a detailed account of my experience last month. The response referred to a different airport and a journey I never took. It left me feeling that my feedback had not been read.,complaint
+Your employee made a sarcastic comment when I asked about my delayed suitcase.,complaint
+Please update my missing-bag case with the apartment address instead of the hostel.,baggage
+Tomorrow we leave our hotel for a rural guesthouse outside Innsbruck. The tracing portal still lists the hotel as the delivery point. Could you redirect the recovered suitcase?,baggage
+Upgrade booking Z8P4LC to business.,booking_change
+I bought a lounge pass through Nimbus for our stop in Frankfurt. My companion uses a wheelchair. Is the lounge entrance accessible without stairs?,other
+"My employer approved premium economy after I bought the ticket, so can you upgrade it?",booking_change
+Can the EUR 35 spent on washing clothes be claimed while my bags remain unlocated?,baggage
+My ticket goes from Edinburgh to Riga and back. I'd like to come home from Tallinn after taking a ferry and bus between cities. Could you alter just that last leg?,booking_change
+Please confirm whether I should go to gate A19 or A21 for the same flight.,flight_status
+I received a cancellation message and want to accept the alternate flight departing at 09:20.,booking_change
+Nothing arrived with me in Riga.,baggage
+Please add these photographs of the crushed corner to damage report VIE1829.,baggage
+I understand that new employees need time to learn. What bothered me was a supervisor laughing at the trainee in front of the queue. It was unpleasant and unprofessional.,complaint
+"I'm annoyed about the queue, but could you explain how to report the broken wheels?",baggage
+The schedule update puts my arrival after the last local train. I would prefer the service that lands at 17:10. Please move my booking to it if there is space.,booking_change
+Is there a children's entertainment channel?,other
+Please arrange wheelchair assistance at arrival.,other
+I found torn fabric around the handle after collecting my luggage in Bilbao.,baggage
+Such a disappointing first Nimbus experience.,complaint
+How do I challenge a rejected delay-compensation claim when the recorded arrival time is wrong?,flight_status
+I was told my rucksack would arrive on the next service to Palermo. Two services have landed since then and the page still shows no location. Please investigate.,baggage
+Can I bring formula through security?,other
+I can't download my boarding pass because the check-in page keeps returning a blank screen.,other
+The online cancellation quote showed EUR 244 to be returned. Only EUR 194 came through yesterday. Please pay the remaining EUR 50 or explain the discrepancy.,refund
+That bag claim is ongoing; this time I want the takeoff estimate for the flight bringing us home.,flight_status
+Can teenagers fly without an adult?,other
+How much does onboard internet cost?,other
+NA620 vanished from the departures board.,flight_status
+Would Nimbus pay for underwear and a toothbrush until the rest of my things reach me?,baggage
+Where is my blue suitcase?,baggage
+Window rather than middle if possible.,booking_change
+The agent's repeated eye-rolling made an already stressful day much more unpleasant.,complaint
+I have already asked another team about the damaged case. Right now I need the actual landing time for yesterday's flight. My travel records show two different times.,flight_status
+refund still pending yeah but today just need help getting into my account,other
+The lost-property form asks for a serial number but my forgotten wool coat doesn't have one.,baggage
+My refund request disappeared overnight.,refund
+The zipper was ripped open.,baggage
+first n last names are backwards,booking_change
+My travel credit was issued for a cancelled flight and I am requesting payment instead.,refund
+Your message says repayment completed on 3 February. The bank has searched all incoming credits and found none. Could you provide the transfer reference?,refund
+Can you arrange assistance for a traveller who has difficulty walking long airport corridors?,other
+I'm unhappy with the way my refund case was passed between teams without anyone reading it.,complaint
+Would you cover basic baby clothes bought because our gate-checked bag went missing?,baggage
+Your case closure felt contemptuous.,complaint
+The website shows a nonstop to Paphos on the same day as my connecting itinerary. I'd like that service instead. Please let me know what I would need to pay.,booking_change
+There are two suitcases on my tracking record but only one tag belongs to me.,baggage
+Where can I see the latest expected arrival for NA439 without logging into a booking?,flight_status
+Does my fare include checked luggage?,baggage
+May I check a cardboard box?,baggage
+"Despite flying directly, my bag was stuck in YVR as confirmed by my Apple AirTag.",baggage
+AA lost my bag on my flight from MIA to Cayman Islands a week ago on Jan 11.,baggage
+Right now I have no idea where the bag is.,baggage
+Lost cabin luggage in flight AF27 while deplaning at CDG on 8th June 2022,baggage
+How long for delayed bag compensation?,baggage
+Air Portugal only refunded us a quarter of the ticket fee.,refund
+It turns out some system error has caused my flight to be booked twice.,refund
+Charged twice for flight,refund
+"It’s been almost 2 weeks now and still have not received refund confirmation, which I was promised within 5 business days.",refund
+"13 weeks waiting on refund, have refused voucher 3 times (have chat transcripts showing that).",refund
+"Am I able to change the date of my flight, if so would the dates apart have to stay the same.",booking_change
+I may want to change my return flight on an international flight after I've taken my 1st flight.,booking_change
+China Airlines - How to change date of flight and what fees does one to expect?,booking_change
+"Should i wait, do the prices decrease if i change closer to the flight date?",booking_change
+I want to change the return leg (faro to dub) to alicante to Dublin but also change the date of return.,booking_change
+Is my flight cancelled or not?,flight_status
+i never received any email saying the flight was cancelled though.,flight_status
+The flight from Helsinki to Tokyo was delayed by 7 hours.,flight_status
+Or am I covered for the delayed flight compensation?,flight_status
+Eu 261 compensation - Airline trying to reduced compesation by 50%,flight_status
+American Airlines treated us like we owed them something and I will never ever fly them again.,complaint
+"I flew from EWR to LAX, flight was good, But on the way back, the flight attendant was so rude.",complaint
+"Customer service none, rude behavior prevalent, didn’t have time for me.",complaint
+"But good god, how is it okay for them to just blatantly insult vegans with these nonsense ""special meals""?",complaint
+"I’ve seen passengers spoken to like dirt, shouted at, humiliated, bullied and treated with absolutely no empathy.",complaint
+Are both “Asian Vegetarian Meal” and “Jain Meal” vegan?,other
+Did the cabin crew allow you to take the dog out of the carrier during the flight?,other
+"Has anyone recently travelled with a cat on Air Canada, what should I do?",other
+Legit question - is there a new login page for delta wifi?,other
+I just got a notice from American Airlines that my points are expiring.,other

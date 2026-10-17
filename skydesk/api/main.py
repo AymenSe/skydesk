@@ -2,14 +2,16 @@ from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
 
-from skydesk.api.classifier import KeywordClassifier
+from skydesk.api.classifier import IntentClassifier
 from skydesk.api.routes import health, tickets
+from skydesk.core.config import get_settings
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # Heavy objects load once here at startup
-    app.state.classifier = KeywordClassifier()
+    settings = get_settings()
+    app.state.classifier = IntentClassifier(settings.artifacts_dir, settings.intent_threshold)
     yield
 
 
