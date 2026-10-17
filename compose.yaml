@@ -4,18 +4,52 @@ services:
   api:
     build:
       context: .
-      target: api              # TODO(Lab 2): the Dockerfile stage to build
+      target: api
     image: skydesk-api:dev
     ports:
       - "8000:8000"
+    environment:
+      DB_HOST: postgres
+      DB_PASSWORD_FILE: /run/secrets/db_password
+    secrets:
+      - db_password
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:18-alpine
+    environment:
+      POSTGRES_USER: skydesk
+      POSTGRES_DB: skydesk
+      POSTGRES_PASSWORD_FILE: /run/secrets/db_password
+    secrets:
+      - db_password
+    volumes:
+      - pgdata:/var/lib/postgresql
+      - ./db/init:/docker-entrypoint-initdb.d:ro      # TODO(Lab 3): the folder where the postgres image looks for init scripts
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U skydesk -d skydesk"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped
 
   tests:
     build:
       context: .
       target: test
     image: skydesk-tests:dev
-    profiles: ["test"]         # a plain `docker compose up` never starts it
-    volumes:                   # your live code, so edits need no rebuild
+    profiles: ["test"]
+    volumes:
       - ./skydesk:/app/skydesk
       - ./tests:/app/tests
       - ./pyproject.toml:/app/pyproject.toml
+
+volumes:
+  pgdata:
+
+secrets:
+  db_password:
+    file: ./secrets/db_password.txt
