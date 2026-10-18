@@ -12,6 +12,8 @@ services:
       DB_HOST: postgres
       DB_PASSWORD_FILE: /run/secrets/db_password
       INTENT_THRESHOLD: ${INTENT_THRESHOLD:-0.45}
+      REDIS_URL: redis://redis:6379/0
+
     secrets:
       - db_password
     depends_on:
@@ -37,6 +39,19 @@ services:
       retries: 10
     restart: unless-stopped
 
+  redis:
+    image: redis:8-alpine
+    # TODO(Lab 5): turn on append-only persistence so queued jobs survive a restart
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - redisdata:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped
+
   tests:
     build:
       context: .
@@ -50,6 +65,7 @@ services:
 
 volumes:
   pgdata:
+  redisdata:
 
 secrets:
   db_password:

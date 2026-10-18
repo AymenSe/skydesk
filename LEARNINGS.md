@@ -75,3 +75,18 @@ Startup depending on Hugging Face. Without it, a Hub outage, a rate limit, a ser
 Too high: many clear messages are escalated as "other", so agents handle work the model could have routed, and the classifier adds little. Too low: wrong guesses are routed with confidence, so tickets reach the wrong team and get the wrong draft. A threshold only catches uncertain predictions, not confident mistakes: "My flight was delayed 4 hours and my suitcase is broken" got baggage at 0.963 despite being mixed.
 
 **Lesson from a bug:** tests passed but the API crashed at startup. The model files were readable only by root, the tests ran as root, and the API runs as `appuser`. Fixed with `chmod -R a+rX artifacts` in the trainer stage. Running tests as the same user as production would have caught it.
+
+
+## Lab 5: Reflect
+
+**A fixed window allows up to twice the limit around a window boundary. How? What would a sliding window or token bucket change?**
+A customer can send 5 requests at 12:00:59 and 5 more at 12:01:00: each minute's counter allows 5, so 10 get through in about one second. A sliding window counts the last 60 seconds from now, so no 60-second period ever has more than 5. A token bucket refills at a steady rate (for example one token every 12 s, at most 5 stored), which allows short bursts but caps the average. Both need a bit more state and an atomic multi-step update in Redis.
+
+**The rate-limit key contains the customer's email. Why is that a privacy smell, and how would you fix it?**
+Personal data ends up in plain text in Redis key names, visible to anyone who runs SCAN or KEYS, in monitoring tools and in logs. Fix: key on a hash of the email (an HMAC with a secret, so it can't be reversed by guessing emails), or on an internal customer id.
+
+**The API commits to Postgres, then pushes to Redis. What happens if the push fails?**
+The ticket is saved as queued but its id never reaches the queue, so the worker never drafts it and the customer waits forever. My database has 7 of these: tickets from Lab 4, saved as queued before the queue existed (/stats showed 14 queued in Postgres but queue_depth 7). Lab 7 adds a recovery step that re-queues stale queued tickets.
+
+**Why put the queue in Redis rather than a Postgres table? What would a Postgres-backed queue give you?**
+Redis gives fast push/pop, a blocking pop (BRPOP) so workers wait instead of polling, and keeps queue churn off the source-of-truth database. A Postgres queue (SELECT … FOR UPDATE SKIP LOCKED) could enqueue in the same transaction as the ticket insert, so a ticket can never be saved without its job, and it means one less system to run, at the cost of more load on the database.

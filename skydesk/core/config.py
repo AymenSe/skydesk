@@ -20,6 +20,10 @@ class Settings(BaseSettings):
     artifacts_dir: Path = Path("artifacts")
     intent_threshold: float = 0.45
 
+    # Redis (Lab 5)
+    redis_url: str = "redis://localhost:6379/0"
+    rate_limit_per_minute: int = 5
+    
     @property
     def sqlalchemy_url(self) -> str:
         if self.database_url:
