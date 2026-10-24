@@ -136,7 +136,7 @@ branch 'lab-0-setup' set up to track 'origin/lab-0-setup'.
   ```bash
   nvidia-smi   # "CUDA Version" in the top-right corner must be 12.4 or higher
   docker run --rm --gpus all nvidia/cuda:12.4.1-base-ubuntu22.04 nvidia-smi
-  # expected: "GeForce GTX 1050 Ti" with about 4096MiB of memory
+  # expected: "GeForce GTX 1050" with about 4096MiB of memory
   ```
 
   Docker Desktop's WSL 2 engine gives containers GPU access, so the `nvidia-ctk` steps from the Linux instructions don't apply on Windows.
