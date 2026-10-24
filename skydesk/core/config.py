@@ -23,6 +23,14 @@ class Settings(BaseSettings):
     # Redis (Lab 5)
     redis_url: str = "redis://localhost:6379/0"
     rate_limit_per_minute: int = 5
+
+    cache_ttl_seconds: int = 3600
+
+    # Worker (Lab 6)
+    llm_model_id: str = "Qwen/Qwen2.5-0.5B-Instruct"
+    llm_device: str = "cuda"
+    llm_dtype: str = "float32"
+    llm_max_new_tokens: int = 200
     
     @property
     def sqlalchemy_url(self) -> str:
