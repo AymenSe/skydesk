@@ -38,9 +38,7 @@ class Ticket(Base):
     message: Mapped[str]
     intent: Mapped[str]
     confidence: Mapped[float]
-    # TODO(Lab 3): new tickets start as queued
     status: Mapped[str] = mapped_column(default=Status.QUEUED)
-    # TODO(Lab 3): these stay empty until the worker drafts a reply, so make them optional
     draft_reply: Mapped[str | None]
     model: Mapped[str | None]
     latency_ms: Mapped[int | None]

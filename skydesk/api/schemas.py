@@ -16,7 +16,6 @@ class TicketCreated(BaseModel):
 
 
 class TicketOut(BaseModel):
-    # TODO(Lab 3): let this model be built directly from a SQLAlchemy object's attributes
     model_config = ConfigDict(from_attributes=True)
 
     id: UUID

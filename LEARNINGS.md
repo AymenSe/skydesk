@@ -90,3 +90,30 @@ The ticket is saved as queued but its id never reaches the queue, so the worker 
 
 **Why put the queue in Redis rather than a Postgres table? What would a Postgres-backed queue give you?**
 Redis gives fast push/pop, a blocking pop (BRPOP) so workers wait instead of polling, and keeps queue churn off the source-of-truth database. A Postgres queue (SELECT … FOR UPDATE SKIP LOCKED) could enqueue in the same transaction as the ticket insert, so a ticket can never be saved without its job, and it means one less system to run, at the cost of more load on the database.
+
+
+## Lab 6: Reflect
+
+**Why claim a ticket with one conditional UPDATE ... WHERE status = 'queued' instead of reading the status and then writing it?**
+With read-then-write, two workers (or a duplicate queue entry) can both read "queued" before either writes, and both draft the ticket. One UPDATE with the condition inside is atomic: only one worker can change the row from queued to processing, and rowcount (1 or 0) tells each worker whether it won. A worker that gets 0 skips the ticket.
+
+**Why does the exec form of CMD matter for graceful shutdown?**
+docker stop sends SIGTERM to the container's main process. With exec form that process is Python, so my signal handler runs: the worker finishes the current draft and exits ("signal 15 ... worker stopped cleanly", 5 s). In shell form the main process is a shell that may not forward the signal, so Docker would wait the full 60 s grace period and then kill the worker, possibly mid-draft, leaving a ticket stuck in processing.
+
+**Ten drafts, read critically.**
+None of the five distinct drafts could be sent as is (CPU float32 and GPU float16 gave identical text, because greedy decoding is deterministic). Two had placeholders, two ignored "at most 5 sentences", one misspelled the brand, and three said something the policy doesn't: it admitted fault for a damaged bag, promised a flight change without the 50 EUR fee, and told a customer whose flight was cancelled by the airline that there is no refund, when the policy offers a full refund or free rebooking.
+
+**How could the system catch that automatically?**
+Rules (square brackets, sentence count, brand name) catch the noisy failures, 3 of 5. They miss the dangerous ones: the refund draft's only number is in the policy, so a numbers check passes it. A second model as judge is possible but unreliable at this size. The real control is FR3: an agent approves every draft, ideally with the policy shown next to it.
+
+**Benchmarks (GTX 1050, 4 GB):** float32 median 6.2 s and 2091 MiB; float16 about 2x slower but 1035 MiB; CPU 11.4 s. float16 halves memory but is slower on this Pascal card, so float32 stays. One worker handles about 9.7 drafts/min, enough on average and with no headroom at peak.
+
+**Bugs found along the way:**
+- redis-py 8 defaults to a 5 s socket timeout, equal to my 5 s BRPOP wait, so the worker crash-looped. Fix: socket_timeout=15 on the worker's client. fakeredis can't reveal network timeouts.
+- len(inputs) counts the dictionary's entries (2), not the prompt tokens: the reply would have echoed the whole prompt without crashing. Only reading real output catches it.
+- A plain pip install torch gives the CUDA 13 build, which dropped Pascal. The worker image installs torch 2.14.1 from the cu126 index.
+- python -m takes a dotted module name, never a file name with .py.
+- Shell commands in a Dockerfile RUN are case-sensitive (MKDIR), and a directory used by a non-root user needs chown.
+
+**Prompt experiments (placeholders in the drafts):**
+Three attempts to remove "[Customer's Name]" and "[Your Name]" failed: a prohibition naming the strings in the system prompt, a positive "no greeting, no sign-off" rule, and the same rule at the end of the user message. The two baggage replies kept both placeholders every time (2 of 5), so a 0.5B model does not reliably follow format rules. Lessons: (1) a prompt change is a code change that the unit tests cannot see, so it needs a rebuild and a re-measurement; (2) the reply cache key does not include the prompt, so old replies hide the change until the cache is flushed (the fix is to add a hash of the system prompt to the key); (3) benchmark numbers describe one specific prompt, so the committed prompt must be the measured one. I kept the original prompt, and a code-side check (flagging drafts with square brackets) is the next step beyond this lab.

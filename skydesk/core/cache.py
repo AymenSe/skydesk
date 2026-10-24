@@ -17,7 +17,6 @@ def get_reply(r: redis.Redis, model_id: str, intent: str, message: str) -> str |
 def set_reply(
     r: redis.Redis, model_id: str, intent: str, message: str, reply: str, ttl: int
 ) -> None:
-    # TODO(Lab 5): store the reply so it expires after `ttl` seconds
     r.set(_key(model_id, intent, message), reply, ex=ttl)
 
 def record(r: redis.Redis, outcome: str) -> None:

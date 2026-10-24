@@ -1,0 +1,2 @@
+-r base.txt
+transformers==5.20.2

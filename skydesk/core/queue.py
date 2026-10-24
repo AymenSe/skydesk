@@ -7,7 +7,6 @@ HEARTBEAT_KEY = "skydesk:worker:heartbeat"
 
 
 def enqueue(r: redis.Redis, ticket_id: UUID | str) -> None:
-    # TODO(Lab 5): push the id onto the LEFT end; the worker pops from the right (FIFO)
     r.lpush(QUEUE_KEY, str(ticket_id))
 
 
