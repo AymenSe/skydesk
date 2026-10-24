@@ -21,6 +21,46 @@ services:
         condition: service_healthy
     restart: unless-stopped
 
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/ready')"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+
+  worker:
+    build:
+      context: .
+      target: worker
+      args:
+        TORCH_INDEX: ${TORCH_INDEX:-https://download.pytorch.org/whl/cu126}
+    image: skydesk-worker:dev
+    environment:
+      DB_HOST: postgres
+      DB_PASSWORD_FILE: /run/secrets/db_password
+      REDIS_URL: redis://redis:6379/0
+      LLM_MODEL_ID: ${LLM_MODEL_ID:-Qwen/Qwen2.5-0.5B-Instruct}
+      LLM_DEVICE: cpu
+      LLM_DTYPE: ${LLM_DTYPE:-float32}
+      LLM_MAX_NEW_TOKENS: ${LLM_MAX_NEW_TOKENS:-200}
+    secrets:
+      - db_password
+    volumes:
+      - hf-cache:/models
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-m", "skydesk.worker.healthcheck"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 5m
+    stop_grace_period: 60s
+    restart: unless-stopped
+
   postgres:
     image: postgres:18-alpine
     environment:
@@ -31,7 +71,7 @@ services:
       - db_password
     volumes:
       - pgdata:/var/lib/postgresql
-      - ./db/init:/docker-entrypoint-initdb.d:ro      # TODO(Lab 3): the folder where the postgres image looks for init scripts
+      - ./db/init:/docker-entrypoint-initdb.d:ro     
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U skydesk -d skydesk"]
       interval: 5s
@@ -41,7 +81,6 @@ services:
 
   redis:
     image: redis:8-alpine
-    # TODO(Lab 5): turn on append-only persistence so queued jobs survive a restart
     command: ["redis-server", "--appendonly", "yes"]
     volumes:
       - redisdata:/data
@@ -66,6 +105,7 @@ services:
 volumes:
   pgdata:
   redisdata:
+  hf-cache:
 
 secrets:
   db_password:
